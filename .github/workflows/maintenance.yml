@@ -1,0 +1,82 @@
+name: Maintenance
+
+# Periodic maintenance (weekly + manual). Re-validates the oldest listings
+# with the documented status policy (nothing is deleted on one failure),
+# audits duplicates and thin pages, rebuilds the site and deploys.
+
+on:
+  schedule:
+    - cron: "47 4 * * 0" # Sundays 04:47 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: maintenance
+  cancel-in-progress: false
+
+jobs:
+  maintain:
+    name: Revalidate, audit, rebuild
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run maintenance
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/maintenance.py
+
+      - name: Commit changes (safe, no history rewrite)
+        run: |
+          git config user.name "freeapihub-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data site 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Maintenance produced no changes."
+          else
+            git commit -m "chore: maintenance update $(date -u +%F)"
+            git push
+          fi
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: maintain
+    if: ${{ success() }}
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

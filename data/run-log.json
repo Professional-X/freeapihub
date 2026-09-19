@@ -1,0 +1,35 @@
+{
+  "_readme": "DO NOT EDIT. One entry per automation run. Never contains secrets.",
+  "runs": [
+    {
+      "date": "2026-09-19",
+      "discovered": 40,
+      "duplicates": 3,
+      "verified": 0,
+      "published": 0,
+      "failed": 16,
+      "skipped": 0,
+      "duration_seconds": 9
+    },
+    {
+      "date": "2026-09-19",
+      "discovered": 40,
+      "duplicates": 40,
+      "verified": 4,
+      "published": 0,
+      "failed": 12,
+      "skipped": 4,
+      "duration_seconds": 16
+    },
+    {
+      "date": "2026-09-19",
+      "discovered": 40,
+      "duplicates": 40,
+      "verified": 1,
+      "published": 0,
+      "failed": 15,
+      "skipped": 1,
+      "duration_seconds": 37
+    }
+  ]
+}

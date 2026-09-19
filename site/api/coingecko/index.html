@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>CoinGecko API - free tier, docs &amp; features</title>
+<meta name="description" content="Cryptocurrency market data API: prices, market caps, historical charts, exchanges and trending coins across thousands of assets. Free public tier availabl…">
+<link rel="canonical" href="https://professional-x.github.io/freeapihub/api/coingecko/">
+
+<meta property="og:site_name" content="FreeAPIHub">
+<meta property="og:type" content="website">
+<meta property="og:title" content="CoinGecko API - free tier, docs &amp; features">
+<meta property="og:description" content="Cryptocurrency market data API: prices, market caps, historical charts, exchanges and trending coins across thousands of assets. Free public tier availabl…">
+<meta property="og:url" content="https://professional-x.github.io/freeapihub/api/coingecko/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="CoinGecko API - free tier, docs &amp; features">
+<meta name="twitter:description" content="Cryptocurrency market data API: prices, market caps, historical charts, exchanges and trending coins across thousands of assets. Free public tier availabl…">
+<link rel="icon" type="image/svg+xml" href="../../assets/images/favicon.svg">
+<link rel="stylesheet" href="../../assets/css/style.css">
+<script>(function(){try{var t=localStorage.getItem('fah-theme');if(!t){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="../../" aria-label="FreeAPIHub home">
+      <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+      <span class="brand-name">FreeAPIHub</span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="../../categories.html">Categories</a>
+      <a href="../../search.html">Search</a>
+      <a href="../../about.html">About</a>
+    </nav>
+    <div class="header-actions">
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <a class="button button-small nav-cta" href="../../submit.html">Submit API</a>
+    </div>
+  </div>
+</header>
+
+
+<main id="main">
+  <article class="api-page">
+    <div class="container container-narrow">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="../../">Home</a> <span aria-hidden="true">/</span>
+        <a href="../../category/finance/">Finance</a> <span aria-hidden="true">/</span>
+        <span aria-current="page">CoinGecko</span>
+      </nav>
+
+      <header class="api-header">
+        <div class="api-title-row">
+          <h1>CoinGecko</h1>
+          <span class="badge status-badge status-verified">Verified</span>
+        </div>
+        <p class="api-tagline">Cryptocurrency market data API: prices, market caps, historical charts, exchanges and trending coins across thousands of assets. Free public tier available.</p>
+        <div class="api-actions">
+          <a class="button" href="https://www.coingecko.com/en/api" rel="noopener">Visit website</a>
+          <a class="button button-outline" href="https://docs.coingecko.com/reference/introduction" rel="noopener">Read documentation</a>
+        </div>
+        <p class="verify-note">Last verified: <time datetime="2026-09-19">2026-09-19</time></p>
+      </header>
+
+      <section class="api-section" aria-label="API information">
+        <h2>At a glance</h2>
+        <dl class="info-table">
+          <div class="info-row"><dt>Category</dt><dd><a href="../../category/finance/">Finance</a></dd></div>
+          <div class="info-row"><dt>Official website</dt><dd><a href="https://www.coingecko.com/en/api" rel="noopener nofollow">https://www.coingecko.com/en/api</a></dd></div>
+          <div class="info-row"><dt>Documentation</dt><dd><a href="https://docs.coingecko.com/reference/introduction" rel="noopener nofollow">https://docs.coingecko.com/reference/introduction</a></dd></div>
+          <div class="info-row"><dt>Authentication</dt><dd>API key</dd></div>
+          <div class="info-row"><dt>HTTPS</dt><dd>Yes</dd></div>
+          <div class="info-row"><dt>CORS</dt><dd>Yes</dd></div>
+          <div class="info-row"><dt>Free tier</dt><dd>Free public tier without a key at roughly 5-15 calls per minute (30 calls/minute with a free demo key).</dd></div>
+          <div class="info-row"><div class="info-row"><dt>Pricing</dt><dd><a href="https://www.coingecko.com/en/api/pricing" rel="noopener nofollow">https://www.coingecko.com/en/api/pricing</a></dd></div></div>
+          <div class="info-row"><dt>License</dt><dd>unknown</dd></div>
+          <div class="info-row"><dt>Status</dt><dd>Verified and reachable at last automated check.</dd></div>
+        </dl>
+        
+      </section>
+
+      
+
+      <section class="api-section" aria-label="Features"><h2>Key features</h2><ul class="feature-list"><li>Prices and market data for 10,000+ coins</li><li>Historical market charts</li><li>Exchange and trading volume data</li><li>Trending coins and global stats</li><li>Free demo key available</li></ul></section>
+
+      
+
+      
+
+      <section class="api-section" aria-label="What can you build"><h2>What can you build?</h2><ul class="use-case-list"><li>Crypto portfolio trackers with live prices</li><li>Market cap ranking pages and widgets</li><li>Trending coin feeds for trading communities</li><li>Historical price charts for research reports</li></ul></section>
+
+      
+
+      <section class="api-section" aria-label="Related APIs">
+        <h2>Related APIs</h2>
+        <div class="api-grid api-grid-related">
+          <article class="api-card">
+  <div class="card-head">
+    <h3 class="card-title"><a href="../../api/alpha-vantage/">Alpha Vantage</a></h3>
+    <span class="badge badge-auth">API key</span>
+  </div>
+  <p class="card-desc">Stock market, forex and cryptocurrency data API with historical and intraday time series, technical indicators and fundamental data. Free API key tier available.</p>
+  <div class="card-meta">
+    <a class="chip" href="../../category/finance/">Finance</a>
+    <span class="badge">HTTPS</span>
+    
+    
+  </div>
+</article>
+<article class="api-card">
+  <div class="card-head">
+    <h3 class="card-title"><a href="../../api/frankfurter/">Frankfurter</a></h3>
+    <span class="badge badge-auth">No authentication</span>
+  </div>
+  <p class="card-desc">Exchange rates API published by the European Central Bank. Converts between 30+ world currencies with historical rates back to 1999. No API key required.</p>
+  <div class="card-meta">
+    <a class="chip" href="../../category/finance/">Finance</a>
+    <span class="badge">HTTPS</span>
+    <span class="badge">CORS: yes</span>
+    
+  </div>
+</article>
+<article class="api-card">
+  <div class="card-head">
+    <h3 class="card-title"><a href="../../api/open-meteo/">Open-Meteo</a></h3>
+    <span class="badge badge-auth">No authentication</span>
+  </div>
+  <p class="card-desc">Global weather forecast and historical weather data API for non-commercial use. Offers hourly and daily forecasts, air quality, and geocoding without requiring an API key.</p>
+  <div class="card-meta">
+    <a class="chip" href="../../category/weather/">Weather</a>
+    <span class="badge">HTTPS</span>
+    <span class="badge">CORS: yes</span>
+    
+  </div>
+</article>
+<article class="api-card">
+  <div class="card-head">
+    <h3 class="card-title"><a href="../../api/pokeapi/">PokeAPI</a></h3>
+    <span class="badge badge-auth">No authentication</span>
+  </div>
+  <p class="card-desc">Comprehensive RESTful API for Pokemon data: species, abilities, moves, types, items and game information. Free and open with no authentication.</p>
+  <div class="card-meta">
+    <a class="chip" href="../../category/entertainment/">Entertainment</a>
+    <span class="badge">HTTPS</span>
+    <span class="badge">CORS: yes</span>
+    
+  </div>
+</article>
+<article class="api-card">
+  <div class="card-head">
+    <h3 class="card-title"><a href="../../api/thedogapi/">TheDogAPI</a></h3>
+    <span class="badge badge-auth">API key</span>
+  </div>
+  <p class="card-desc">Dog pictures and breed information API: thousands of curated images with temperament, life span, origin and weight data for hundreds of breeds. Free tier with optional key.</p>
+  <div class="card-meta">
+    <a class="chip" href="../../category/images/">Images</a>
+    <span class="badge">HTTPS</span>
+    <span class="badge">CORS: yes</span>
+    
+  </div>
+</article>
+<article class="api-card">
+  <div class="card-head">
+    <h3 class="card-title"><a href="../../api/free-dictionary-api/">Free Dictionary API</a></h3>
+    <span class="badge badge-auth">No authentication</span>
+  </div>
+  <p class="card-desc">Simple, fast dictionary API returning definitions, phonetics, audio pronunciations, synonyms and antonyms for English words. No authentication required.</p>
+  <div class="card-meta">
+    <a class="chip" href="../../category/education/">Education</a>
+    <span class="badge">HTTPS</span>
+    <span class="badge">CORS: yes</span>
+    
+  </div>
+</article>
+
+        </div>
+      </section>
+
+      <section class="api-section api-sources" aria-label="Sources">
+        <h2>Sources</h2>
+        <ul class="source-list">
+          <li><a href="https://www.coingecko.com/en/api" rel="noopener">Official website</a> <span class="text-faint">(coingecko.com)</span></li><li><a href="https://docs.coingecko.com/reference/introduction" rel="noopener">Documentation</a> <span class="text-faint">(coingecko.com)</span></li><li><a href="https://www.coingecko.com/en/api/pricing" rel="noopener">Pricing</a> <span class="text-faint">(coingecko.com)</span></li>
+        </ul>
+        <p class="disclaimer">This page summarises publicly available information about the CoinGecko. Details such as pricing, limits and availability can change at any time - always confirm critical information with the official documentation. Report issues through our <a href="../../submit.html">submission page</a>.</p>
+      </section>
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-about">
+      <div class="footer-brand">FreeAPIHub</div>
+      <p class="footer-tagline">Discover useful APIs for your next project</p>
+      <p class="footer-note">Listings are aggregated from public sources and automatically verified. Information can change - always confirm critical details with official documentation.</p>
+    </div>
+    <nav class="footer-col" aria-label="Explore">
+      <h2>Explore</h2>
+      <a href="../../">Home</a>
+      <a href="../../categories.html">All categories</a>
+      <a href="../../search.html">Search APIs</a>
+    </nav>
+    <nav class="footer-col" aria-label="Site information">
+      <h2>Site</h2>
+      <a href="../../about.html">About</a>
+      <a href="../../submit.html">Submit an API</a>
+      <a href="../../privacy.html">Privacy</a>
+      <a href="../../terms.html">Terms</a>
+    </nav>
+  </div>
+  <div class="container footer-legal">
+    <p>&copy; 2026 FreeAPIHub. Built as a static directory. External links lead to third-party services.</p>
+  </div>
+</footer>
+<script src="../../assets/js/theme.js" defer></script>
+
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "name": "CoinGecko", "description": "Cryptocurrency market data API: prices, market caps, historical charts, exchanges and trending coins across thousands of assets. Free public tier available.", "url": "https://professional-x.github.io/freeapihub/api/coingecko/", "about": {"@type": "SoftwareApplication", "name": "CoinGecko", "applicationCategory": "WebAPI", "operatingSystem": "Web", "url": "https://www.coingecko.com/en/api"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://professional-x.github.io/freeapihub/"}, {"@type": "ListItem", "position": 2, "name": "Finance", "item": "https://professional-x.github.io/freeapihub/category/finance/"}, {"@type": "ListItem", "position": 3, "name": "CoinGecko", "item": "https://professional-x.github.io/freeapihub/api/coingecko/"}]}]}</script>
+</body>
+</html>

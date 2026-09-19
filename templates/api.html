@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{HEAD}}
+</head>
+<body>
+{{HEADER}}
+{{AD_TOP}}
+<main id="main">
+  <article class="api-page">
+    <div class="container container-narrow">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="{{BASE}}/">Home</a> <span aria-hidden="true">/</span>
+        <a href="{{BASE}}/category/{{CATEGORY_SLUG}}/">{{CATEGORY_NAME}}</a> <span aria-hidden="true">/</span>
+        <span aria-current="page">{{NAME}}</span>
+      </nav>
+
+      <header class="api-header">
+        <div class="api-title-row">
+          <h1>{{NAME}}</h1>
+          {{STATUS_BADGE}}
+        </div>
+        <p class="api-tagline">{{DESCRIPTION}}</p>
+        <div class="api-actions">
+          {{PRIMARY_BUTTON}}
+          {{DOCS_BUTTON}}
+        </div>
+        <p class="verify-note">Last verified: <time datetime="{{LAST_VERIFIED}}">{{LAST_VERIFIED}}</time></p>
+      </header>
+
+      <section class="api-section" aria-label="API information">
+        <h2>At a glance</h2>
+        <dl class="info-table">
+          <div class="info-row"><dt>Category</dt><dd><a href="{{BASE}}/category/{{CATEGORY_SLUG}}/">{{CATEGORY_NAME}}</a></dd></div>
+          <div class="info-row"><dt>Official website</dt><dd>{{OFFICIAL_LINK}}</dd></div>
+          <div class="info-row"><dt>Documentation</dt><dd>{{DOCS_LINK}}</dd></div>
+          <div class="info-row"><dt>Authentication</dt><dd>{{AUTH_LABEL}}</dd></div>
+          <div class="info-row"><dt>HTTPS</dt><dd>{{HTTPS_LABEL}}</dd></div>
+          <div class="info-row"><dt>CORS</dt><dd>{{CORS_LABEL}}</dd></div>
+          <div class="info-row"><dt>Free tier</dt><dd>{{FREE_TIER}}</dd></div>
+          <div class="info-row">{{PRICING_ROW}}</div>
+          <div class="info-row"><dt>License</dt><dd>{{LICENSE}}</dd></div>
+          <div class="info-row"><dt>Status</dt><dd>{{STATUS_LONG}}</dd></div>
+        </dl>
+        {{STATUS_NOTICE}}
+      </section>
+
+      {{AD_AFTER_INTRO}}
+
+      {{FEATURES_SECTION}}
+
+      {{EXAMPLES_SECTION}}
+
+      {{MIDDLE_AD_SLOT}}
+
+      {{USE_CASES_SECTION}}
+
+      {{AD_BEFORE_RELATED}}
+
+      <section class="api-section" aria-label="Related APIs">
+        <h2>Related APIs</h2>
+        <div class="api-grid api-grid-related">
+          {{RELATED_CARDS}}
+        </div>
+      </section>
+
+      <section class="api-section api-sources" aria-label="Sources">
+        <h2>Sources</h2>
+        <ul class="source-list">
+          {{SOURCE_LINKS}}
+        </ul>
+        <p class="disclaimer">This page summarises publicly available information about the {{NAME}}. Details such as pricing, limits and availability can change at any time - always confirm critical information with the official documentation. Report issues through our <a href="{{BASE}}/submit.html">submission page</a>.</p>
+      </section>
+    </div>
+  </article>
+</main>
+{{FOOTER}}
+{{JSONLD}}
+</body>
+</html>

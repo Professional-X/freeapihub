@@ -1,0 +1,42 @@
+{
+  "_readme": "EDIT THESE VALUES. This is the central configuration for the whole site. Sensitive values (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL) come from GitHub Secrets / environment variables - never put them in this file.",
+
+  "site_name": "FreeAPIHub",
+  "site_tagline": "Discover useful APIs for your next project",
+  "site_description": "A curated, automatically verified directory of free and freemium APIs for developers. Search, browse categories, and find the right API faster.",
+
+  "site_url": "https://professional-x.github.io",
+  "site_url_path": "/freeapihub",
+
+  "daily_publish_limit": 4,
+  "minimum_quality_score": 70,
+
+  "llm_model": "",
+  "verification_timeout_seconds": 10,
+  "maintenance_days": 14,
+
+  "discovery_max_new_per_run": 40,
+  "verify_max_candidates_per_run": 16,
+  "queue_max_size": 600,
+
+  "maintenance_batch_size": 30,
+  "maintenance_regenerate_per_run": 2,
+
+  "category_page_size": 24,
+  "home_latest_count": 12,
+  "home_featured_count": 8,
+
+  "_do_not_edit_below": "Everything below is internal automation policy. Change only if you understand the consequences.",
+
+  "dead_after_failures": 6,
+  "warning_after_failures": 1,
+  "unavailable_after_failures": 3,
+  "archive_from_sitemap_after_days": 30,
+  "reverify_interval_days": 14,
+  "verify_cache_days": 7,
+  "request_delay_seconds": 1.2,
+  "max_retries": 2,
+  "llm_timeout_seconds": 90,
+  "llm_max_tokens": 1400,
+  "llm_temperature": 0.2
+}

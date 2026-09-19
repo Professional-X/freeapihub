@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local build artifacts (site/ and data/ ARE committed on purpose)
+*.log
+scripts/*.pyc
+
+# pipeline intermediates (regenerated per run)
+data/_verified.json
+data/_researched.json
+data/_needs_research.json
+data/verify-cache.json

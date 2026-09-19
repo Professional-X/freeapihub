@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{HEAD}}
+</head>
+<body>
+{{HEADER}}
+{{AD_TOP}}
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero-title">Discover useful APIs for your&nbsp;next&nbsp;project.</h1>
+      <p class="hero-sub">{{SITE_TAGLINE}}. Every listing is automatically checked against its official website and documentation before it is published.</p>
+      <form class="hero-search" action="{{BASE}}/search.html" method="get" role="search">
+        <label class="visually-hidden" for="hero-q">Search APIs</label>
+        <input id="hero-q" type="search" name="q" placeholder="Search {{API_COUNT}} APIs: weather, finance, AI, maps&hellip;" autocomplete="off">
+        <button type="submit" class="button">Search</button>
+      </form>
+    </div>
+  </section>
+  <section class="stats" aria-label="Directory statistics">
+    <div class="container stats-grid">
+      <div class="stat"><span class="stat-num">{{TOTAL_APIS}}</span><span class="stat-label">APIs listed</span></div>
+      <div class="stat"><span class="stat-num">{{TOTAL_CATEGORIES}}</span><span class="stat-label">Categories</span></div>
+      <div class="stat"><span class="stat-num">{{FREE_APIS}}</span><span class="stat-label">Free access noted</span></div>
+      <div class="stat"><span class="stat-num">{{RECENT_COUNT}}</span><span class="stat-label">Added in last 30 days</span></div>
+    </div>
+  </section>
+  {{AD_AFTER_INTRO}}
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Browse by category</h2>
+        <a class="see-all" href="{{BASE}}/categories.html">All categories &rarr;</a>
+      </div>
+      <div class="category-grid">
+        {{CATEGORY_CARDS}}
+      </div>
+    </div>
+  </section>
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <h2>Recently added</h2>
+      </div>
+      <div class="api-grid">
+        {{LATEST_CARDS}}
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Featured APIs</h2>
+      </div>
+      <p class="section-note">Selected deterministically for completeness and recent verification. This is an internal quality signal, not a user rating.</p>
+      <div class="api-grid">
+        {{FEATURED_CARDS}}
+      </div>
+    </div>
+  </section>
+  <section class="section section-cta">
+    <div class="container">
+      <div class="cta-box">
+        <h2>Know a great API?</h2>
+        <p>Submit it once. It goes through the same automated verification as every other listing before it appears.</p>
+        <a class="button" href="{{BASE}}/submit.html">Submit an API</a>
+      </div>
+    </div>
+  </section>
+</main>
+{{FOOTER}}
+</body>
+</html>

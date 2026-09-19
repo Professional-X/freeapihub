@@ -1,0 +1,23 @@
+{
+  "_readme": "EDIT THESE VALUES. Paste your advertisement code (AdSense, Adsterra, etc.) into the slot fields below as RAW HTML/JavaScript. Leave a slot empty (\"\") to disable it. The code is inserted verbatim into every generated page - it is never modified or escaped by the build system. DO NOT add secrets here if your ad provider does not require them client-side.",
+
+  "enabled": true,
+
+  "slots": {
+    "top": "",
+    "after_intro": "",
+    "middle": "",
+    "before_related": "",
+    "sidebar": "",
+    "footer": ""
+  },
+
+  "_placement_reference": {
+    "top": "Above the page title / below the main navigation",
+    "after_intro": "After the API description and info table (also used on homepage after hero)",
+    "middle": "Between content sections (mid-page)",
+    "before_related": "Just above the Related APIs section",
+    "sidebar": "Reserved (responsive layouts may ignore this slot)",
+    "footer": "Above the site footer"
+  }
+}

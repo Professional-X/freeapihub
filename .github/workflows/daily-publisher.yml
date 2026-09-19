@@ -1,0 +1,86 @@
+name: Daily Publisher
+
+# Runs once per day (UTC 03:17). Discovers, verifies, researches and publishes
+# new API listings, rebuilds the site, validates it, commits, and deploys.
+# Can also be started manually from the Actions tab (Run workflow).
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Discover, verify, publish
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run daily pipeline
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # higher discovery rate limits
+        run: python scripts/run_daily.py
+
+      - name: Commit changes (safe, no history rewrite)
+        run: |
+          git config user.name "freeapihub-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data site 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No changes produced by this run."
+          else
+            COUNT=$(git diff --cached --name-only -- 'site/api/' | grep -c 'index.html' || true)
+            git commit -m "chore: daily publish update $(date -u +%F) (${COUNT} api pages touched)"
+            git push
+          fi
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: publish
+    if: ${{ success() }}
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

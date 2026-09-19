@@ -1,0 +1,31 @@
+{
+  "_readme": "DO NOT EDIT normally. Discovery sources for the daily pipeline. Each source has a type handled by scripts/discover.py. Set enabled=false to turn one off, or add new ones with a supported type.",
+  "sources": [
+    {
+      "id": "public-apis",
+      "type": "github_readme",
+      "url": "https://raw.githubusercontent.com/public-apis/public-apis/master/README.md",
+      "enabled": true,
+      "max_items": 40,
+      "notes": "Large curated list of public APIs, parsed from the markdown tables."
+    },
+    {
+      "id": "apis-guru",
+      "type": "apis_guru",
+      "url": "https://api.apis.guru/v2/list.json",
+      "enabled": true,
+      "max_items": 30,
+      "notes": "Machine-readable directory of APIs with OpenAPI specifications."
+    },
+    {
+      "id": "github-search",
+      "type": "github_search",
+      "url": "https://api.github.com/search/repositories",
+      "query": "topic:api in:name,description created:>2024-01-01 stars:>50",
+      "sort": "updated",
+      "enabled": true,
+      "max_items": 15,
+      "notes": "Recently created GitHub repositories that document APIs. Uses GH_TOKEN secret when available for higher rate limits."
+    }
+  ]
+}

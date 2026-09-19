@@ -1,0 +1,72 @@
+name: API submission
+description: Suggest a public API for the FreeAPIHub directory. It must pass automated verification before being listed.
+title: "API submission: [NAME]"
+labels: ["api-submission"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: API name
+      description: The official name of the API.
+      placeholder: e.g. Open-Meteo
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Official website
+      description: The main URL of the service.
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: input
+    id: documentation
+    attributes:
+      label: Documentation
+      description: Direct link to the API documentation.
+      placeholder: https://example.com/docs
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - AI & Machine Learning
+        - Finance
+        - Weather
+        - Maps & Geography
+        - Images
+        - Video
+        - Audio & Music
+        - Developer Tools
+        - Education
+        - Sports
+        - News
+        - Entertainment
+        - Productivity
+        - Science
+        - Security
+        - Government
+        - Transportation
+        - E-commerce
+        - Books & Literature
+        - Food & Drink
+        - Health
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: One or two factual sentences describing what the API does.
+    validations:
+      required: true
+  - type: textarea
+    id: free-tier
+    attributes:
+      label: Free tier
+      description: What exactly is available for free (limits, key requirements)? Leave blank if unknown - the pipeline will try to verify from official docs.
+    validations:
+      required: false

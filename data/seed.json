@@ -1,0 +1,547 @@
+{
+  "_readme": "DO NOT EDIT normally. Curated starter APIs used by scripts/seed.py for the initial one-time build. All entries are real, well-documented services with public free access. The seed pipeline verifies every URL live before publishing, so facts are confirmed, not assumed.",
+  "seed": [
+    {
+      "name": "Open-Meteo",
+      "official_url": "https://open-meteo.com/",
+      "documentation_url": "https://open-meteo.com/en/docs",
+      "description": "Global weather forecast and historical weather data API for non-commercial use. Offers hourly and daily forecasts, air quality, and geocoding without requiring an API key.",
+      "category": "weather",
+      "authentication": "none",
+      "https": true,
+      "cors": "yes",
+      "free_tier": "Completely free for non-commercial use; no API key required. Commercial use requires a paid API subscription.",
+      "pricing_url": "https://open-meteo.com/en/pricing",
+      "license": "Attribution required (CC BY 4.0 for data)",
+      "tags": [
+        "weather",
+        "forecast",
+        "climate",
+        "air-quality",
+        "geocoding"
+      ],
+      "features": [
+        "Hourly and daily weather forecasts up to 16 days",
+        "Historical weather data back decades",
+        "Air quality and pollen data",
+        "Geocoding search for place names",
+        "No API key required"
+      ],
+      "source_urls": [
+        "https://open-meteo.com/",
+        "https://open-meteo.com/en/docs"
+      ],
+      "use_cases": [
+        "A weather dashboard for a travel planning site",
+        "Historical climate analysis for a gardening app",
+        "An air-quality alert widget for smart home dashboards",
+        "A hiking conditions checker with hourly forecasts"
+      ]
+    },
+    {
+      "name": "GitHub REST API",
+      "official_url": "https://docs.github.com/en/rest",
+      "documentation_url": "https://docs.github.com/en/rest",
+      "description": "Official REST interface to GitHub data: repositories, issues, pull requests, users, commits, and more. Unauthenticated requests are limited; authenticated requests get a much higher rate limit.",
+      "category": "developer-tools",
+      "authentication": "api-key",
+      "https": true,
+      "cors": "yes",
+      "free_tier": "Free. 60 unauthenticated requests per hour per IP; 5,000 authenticated requests per hour with a free personal access token.",
+      "pricing_url": "https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api",
+      "license": "unknown",
+      "tags": [
+        "git",
+        "repositories",
+        "open-source",
+        "ci",
+        "code"
+      ],
+      "features": [
+        "Full read/write access to repository data",
+        "Issues, pull requests, and commit history",
+        "User and organization profiles",
+        "Webhooks and release metadata",
+        "Official SDKs in many languages"
+      ],
+      "source_urls": [
+        "https://docs.github.com/en/rest",
+        "https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api"
+      ],
+      "use_cases": [
+        "CI dashboards that track pull request status across repos",
+        "Changelog generators from release and commit data",
+        "Open-source contribution trackers and leaderboards",
+        "Automated issue triage and labeling bots"
+      ]
+    },
+    {
+      "name": "REST Countries",
+      "official_url": "https://restcountries.com/",
+      "documentation_url": "https://gitlab.com/restcountries/restcountries",
+      "description": "Free API providing information about world countries: names, capitals, populations, currencies, languages, flags, timezones and borders. No authentication required.",
+      "category": "maps",
+      "authentication": "none",
+      "https": true,
+      "cors": "yes",
+      "free_tier": "Completely free with no API key; reasonable rate limits apply.",
+      "pricing_url": "",
+      "license": "Open (MPL-2.0 for the project code)",
+      "tags": [
+        "countries",
+        "geography",
+        "flags",
+        "population",
+        "reference"
+      ],
+      "features": [
+        "Country profiles with capital, region and population",
+        "Currencies, languages and borders",
+        "Flag images in SVG and PNG",
+        "Filterable field selection",
+        "No API key required"
+      ],
+      "source_urls": [
+        "https://restcountries.com/",
+        "https://gitlab.com/restcountries/restcountries"
+      ],
+      "use_cases": [
+        "Country pickers with flags and currency data for checkout forms",
+        "Geography quiz apps and educational tools",
+        "Travel briefing pages with timezone and language info",
+        "Data enrichment for international user profiles"
+      ]
+    },
+    {
+      "name": "Frankfurter",
+      "official_url": "https://frankfurter.dev/",
+      "documentation_url": "https://frankfurter.dev/docs/",
+      "description": "Exchange rates API published by the European Central Bank. Converts between 30+ world currencies with historical rates back to 1999. No API key required.",
+      "category": "finance",
+      "authentication": "none",
+      "https": true,
+      "cors": "yes",
+      "free_tier": "Completely free for all use; no API key or registration required.",
+      "pricing_url": "",
+      "license": "unknown",
+      "tags": [
+        "currency",
+        "exchange-rates",
+        "ecb",
+        "finance",
+        "conversion"
+      ],
+      "features": [
+        "Latest and historical ECB reference rates",
+        "Currency conversion between 30+ currencies",
+        "Time series queries",
+        "No API key required"
+      ],
+      "source_urls": [
+        "https://frankfurter.dev/",
+        "https://frankfurter.dev/docs/"
+      ],
+      "use_cases": [
+        "Currency converters for pricing pages",
+        "Historical exchange rate charts for finance blogs",
+        "Multi-currency invoice calculators for freelancers",
+        "Price normalization in comparison shopping tools"
+      ]
+    },
+    {
+      "name": "PokeAPI",
+      "official_url": "https://pokeapi.co/",
+      "documentation_url": "https://pokeapi.co/docs/v2",
+      "description": "Comprehensive RESTful API for Pokemon data: species, abilities, moves, types, items and game information. Free and open with no authentication.",
+      "category": "entertainment",
+      "authentication": "none",
+      "https": true,
+      "cors": "yes",
+      "free_tier": "Completely free; fair-use rate limit of 300 requests per resource per day is requested by the project.",
+      "pricing_url": "",
+      "license": "CC BY-NC-SA 4.0 (data)",
+      "tags": [
+        "pokemon",
+        "games",
+        "gaming",
+        "reference"
+      ],
+      "features": [
+        "Full Pokemon species and stat data",
+        "Moves, abilities, types and items",
+        "Game versions and encounter locations",
+        "Sprites and artwork URLs",
+        "GraphQL endpoint available"
+      ],
+      "source_urls": [
+        "https://pokeapi.co/",
+        "https://pokeapi.co/docs/v2"
+      ],
+      "use_cases": [
+        "Pokedex web and mobile apps",
+        "Team builder tools for Pokemon games",
+        "Type matchup calculators and battle simulators",
+        "Pokemon-themed trivia and learning games"
+      ]
+    },
+    {
+      "name": "Hacker News API",
+      "official_url": "https://github.com/HackerNews/API",
+      "documentation_url": "https://github.com/HackerNews/API",
+      "description": "Official, read-only Firebase-backed API for Hacker News: top, new and best stories, comments, users and full item trees. Unauthenticated and free.",
+      "category": "news",
+      "authentication": "none",
+      "https": true,
+      "cors": "yes",
+      "free_tier": "Completely free with no API key; backed by Firebase with nearly unlimited read access.",
+      "pricing_url": "",
+      "license": "unknown",
+      "tags": [
+        "news",
+        "tech",
+        "community",
+        "startups"
+      ],
+      "features": [
+        "Top, new, best and ask/show story feeds",
+        "Full comment trees for every item",
+        "User profiles with submissions",
+        "Real-time updated data",
+        "No API key required"
+      ],
+      "source_urls": [
+        "https://github.com/HackerNews/API"
+      ],
+      "use_cases": [
+        "Tech news readers with custom filtering",
+        "Trend trackers for keywords across the community",
+        "Comment thread analyzers and discussion dashboards",
+        "Slack or Discord bots posting top stories"
+      ]
+    },
+    {
+      "name": "TheSpaceDevs (Launch Library 2)",
+      "official_url": "https://thespacedevs.com/",
+      "documentation_url": "https://thespacedevs.com/llapi",
+      "description": "Comprehensive spaceflight API covering upcoming rocket launches, spaceflight events, astronauts, space stations and spacecraft. Free tier available with rate limits.",
+      "category": "science",
+      "authentication": "none",
+      "https": true,
+      "cors": "yes",
+      "free_tier": "Free without registration at 15 requests per hour; free API token raises this to 3,000 requests per hour.",
+      "pricing_url": "https://thespacedevs.com/llapi",
+      "license": "CC BY-SA 4.0 (data)",
+      "tags": [
+        "space",
+        "launches",
+        "rockets",
+        "astronomy",
+        "iss"
+      ],
+      "features": [
+        "Upcoming and past rocket launch schedules",
+        "Launch provider, rocket and pad details",
+        "Astronaut and space station data",
+        "Spaceflight event tracking",
+        "Live launch webcast links"
+      ],
+      "source_urls": [
+        "https://thespacedevs.com/",
+        "https://thespacedevs.com/llapi"
+      ],
+      "use_cases": [
+        "Launch countdown widgets and calendars",
+        "Spaceflight news aggregators with live webcasts",
+        "Astronaut and mission profile databases",
+        "Notification bots for upcoming rocket launches"
+      ]
+    },
+    {
+      "name": "NASA APIs",
+      "official_url": "https://api.nasa.gov/",
+      "documentation_url": "https://api.nasa.gov/",
+      "description": "Official NASA data APIs: Astronomy Picture of the Day, Mars rover photos, Earth imagery, near-Earth objects, EPIC satellite images and more. Free API key available instantly.",
+      "category": "science",
+      "authentication": "api-key",
+      "https": true,
+      "cors": "unknown",
+      "free_tier": "Free with a DEMO_KEY for immediate testing (30 requests per IP per hour) and free personal keys (50 requests per hour).",
+      "pricing_url": "https://api.nasa.gov/",
+      "license": "Public domain (US government work)",
+      "tags": [
+        "space",
+        "mars",
+        "earth",
+        "imagery",
+        "astronomy"
+      ],
+      "features": [
+        "Astronomy Picture of the Day (APOD)",
+        "Mars rover photo archives",
+        "Near-Earth asteroid tracking",
+        "Earth satellite imagery (Landsat, EPIC)",
+        "Instant free API key by email"
+      ],
+      "source_urls": [
+        "https://api.nasa.gov/"
+      ],
+      "use_cases": [
+        "Daily space picture widgets using APOD",
+        "Mars mission photo explorers",
+        "Asteroid tracking dashboards for educators",
+        "Earth imagery visualizations for geography projects"
+      ]
+    },
+    {
+      "name": "Free Dictionary API",
+      "official_url": "https://dictionaryapi.dev/",
+      "documentation_url": "https://dictionaryapi.dev/",
+      "description": "Simple, fast dictionary API returning definitions, phonetics, audio pronunciations, synonyms and antonyms for English words. No authentication required.",
+      "category": "education",
+      "authentication": "none",
+      "https": true,
+      "cors": "yes",
+      "free_tier": "Completely free with no API key; no hard rate limit published, reasonable use expected.",
+      "pricing_url": "",
+      "license": "Uses Wiktionary content (CC BY-SA)",
+      "tags": [
+        "dictionary",
+        "english",
+        "words",
+        "definitions",
+        "language"
+      ],
+      "features": [
+        "Word definitions with parts of speech",
+        "Audio pronunciations",
+        "Synonyms and antonyms",
+        "Etymology where available",
+        "No API key required"
+      ],
+      "source_urls": [
+        "https://dictionaryapi.dev/"
+      ],
+      "use_cases": [
+        "Instant word lookup browser extensions",
+        "Vocabulary learning apps with audio pronunciations",
+        "Reading assistants that define selected text",
+        "Word-of-the-day widgets for websites"
+      ]
+    },
+    {
+      "name": "Open Library API",
+      "official_url": "https://openlibrary.org/developers/api",
+      "documentation_url": "https://openlibrary.org/developers/api",
+      "description": "Open Library by the Internet Archive offers free APIs for books: search, metadata, covers, reading logs and full-text search across millions of works.",
+      "category": "books",
+      "authentication": "none",
+      "https": true,
+      "cors": "unknown",
+      "free_tier": "Completely free for reading data; accounts are free if write access (reading logs, lists) is needed.",
+      "pricing_url": "",
+      "license": "Open data (various open licenses)",
+      "tags": [
+        "books",
+        "library",
+        "reading",
+        "metadata",
+        "covers"
+      ],
+      "features": [
+        "Book and author metadata",
+        "Full-text search across millions of books",
+        "Cover image API",
+        "Subject and reading level data",
+        "No API key required for reads"
+      ],
+      "source_urls": [
+        "https://openlibrary.org/developers/api"
+      ],
+      "use_cases": [
+        "Book catalog and reading list apps",
+        "Library search tools with cover art",
+        "Book recommendation widgets by subject",
+        "Citation and metadata helpers for writers"
+      ]
+    },
+    {
+      "name": "Nager.Date",
+      "official_url": "https://date.nager.at/",
+      "documentation_url": "https://date.nager.at/Api",
+      "description": "Worldwide public holiday API covering 100+ countries: national holidays, long weekends, and next-upcoming holidays. Free and unauthenticated.",
+      "category": "government",
+      "authentication": "none",
+      "https": true,
+      "cors": "yes",
+      "free_tier": "Completely free with no API key or registration.",
+      "pricing_url": "",
+      "license": "unknown",
+      "tags": [
+        "holidays",
+        "calendar",
+        "countries",
+        "dates"
+      ],
+      "features": [
+        "Public holidays for 100+ countries",
+        "Long weekend detection",
+        "Next upcoming holidays endpoint",
+        "Workday and weekday checks",
+        "No API key required"
+      ],
+      "source_urls": [
+        "https://date.nager.at/",
+        "https://date.nager.at/Api"
+      ],
+      "use_cases": [
+        "Holiday-aware scheduling in HR and payroll software",
+        "Long-weekend trip planners",
+        "International shipping date estimators",
+        "Calendar integrations that flag public holidays"
+      ]
+    },
+    {
+      "name": "TheDogAPI",
+      "official_url": "https://thedogapi.com/",
+      "documentation_url": "https://thedogapi.com/",
+      "description": "Dog pictures and breed information API: thousands of curated images with temperament, life span, origin and weight data for hundreds of breeds. Free tier with optional key.",
+      "category": "images",
+      "authentication": "api-key",
+      "https": true,
+      "cors": "yes",
+      "free_tier": "Free tier with up to 10,000 requests per month; a free API key unlocks voting, favourites and uploads.",
+      "pricing_url": "https://thedogapi.com/#pricing",
+      "license": "unknown",
+      "tags": [
+        "dogs",
+        "animals",
+        "images",
+        "pets",
+        "breeds"
+      ],
+      "features": [
+        "Random dog image search",
+        "Breed data: temperament, origin, lifespan",
+        "Search by breed and category",
+        "Favourites and voting on free tier",
+        "Works without a key for basic use"
+      ],
+      "source_urls": [
+        "https://thedogapi.com/"
+      ],
+      "use_cases": [
+        "Breed guide apps with temperament and care info",
+        "Random dog image widgets for mood boosters",
+        "Pet adoption site enhancements",
+        "Animal-themed game content generators"
+      ]
+    },
+    {
+      "name": "ipify",
+      "official_url": "https://www.ipify.org/",
+      "documentation_url": "https://www.ipify.org/",
+      "description": "Simple public IP address API that returns the caller's IPv4 or IPv6 address in plain text, JSON or JSONP. Handles billions of requests daily with no limits.",
+      "category": "developer-tools",
+      "authentication": "none",
+      "https": true,
+      "cors": "unknown",
+      "free_tier": "Completely free with no request limits and no API key.",
+      "pricing_url": "",
+      "license": "unknown",
+      "tags": [
+        "ip",
+        "networking",
+        "utilities",
+        "ipv6"
+      ],
+      "features": [
+        "IPv4 and IPv6 detection",
+        "Plain text, JSON and JSONP output",
+        "No rate limits",
+        "No API key required"
+      ],
+      "source_urls": [
+        "https://www.ipify.org/"
+      ],
+      "use_cases": [
+        "Network diagnostics tools that show the visitor's IP",
+        "License validation tied to network identity",
+        "Webhook configuration helpers",
+        "Security audit logging of client addresses"
+      ]
+    },
+    {
+      "name": "Alpha Vantage",
+      "official_url": "https://www.alphavantage.co/",
+      "documentation_url": "https://www.alphavantage.co/documentation/",
+      "description": "Stock market, forex and cryptocurrency data API with historical and intraday time series, technical indicators and fundamental data. Free API key tier available.",
+      "category": "finance",
+      "authentication": "api-key",
+      "https": true,
+      "cors": "unknown",
+      "free_tier": "Free API key with 25 requests per day; premium plans raise limits.",
+      "pricing_url": "https://www.alphavantage.co/premium/",
+      "license": "unknown",
+      "tags": [
+        "stocks",
+        "finance",
+        "forex",
+        "crypto",
+        "market-data"
+      ],
+      "features": [
+        "Stock time series (intraday and daily)",
+        "Technical indicators (SMA, EMA, RSI)",
+        "Forex and cryptocurrency rates",
+        "Company fundamentals and earnings",
+        "Free key delivered instantly"
+      ],
+      "source_urls": [
+        "https://www.alphavantage.co/",
+        "https://www.alphavantage.co/documentation/"
+      ],
+      "use_cases": [
+        "Stock portfolio trackers with historical charts",
+        "Technical indicator analysis for trading dashboards",
+        "Crypto price widgets for finance sites",
+        "Fundamental data screens for research tools"
+      ]
+    },
+    {
+      "name": "CoinGecko",
+      "official_url": "https://www.coingecko.com/en/api",
+      "documentation_url": "https://docs.coingecko.com/reference/introduction",
+      "description": "Cryptocurrency market data API: prices, market caps, historical charts, exchanges and trending coins across thousands of assets. Free public tier available.",
+      "category": "finance",
+      "authentication": "api-key",
+      "https": true,
+      "cors": "yes",
+      "free_tier": "Free public tier without a key at roughly 5-15 calls per minute (30 calls/minute with a free demo key).",
+      "pricing_url": "https://www.coingecko.com/en/api/pricing",
+      "license": "unknown",
+      "tags": [
+        "crypto",
+        "bitcoin",
+        "market-data",
+        "prices"
+      ],
+      "features": [
+        "Prices and market data for 10,000+ coins",
+        "Historical market charts",
+        "Exchange and trading volume data",
+        "Trending coins and global stats",
+        "Free demo key available"
+      ],
+      "source_urls": [
+        "https://www.coingecko.com/en/api",
+        "https://docs.coingecko.com/reference/introduction"
+      ],
+      "use_cases": [
+        "Crypto portfolio trackers with live prices",
+        "Market cap ranking pages and widgets",
+        "Trending coin feeds for trading communities",
+        "Historical price charts for research reports"
+      ]
+    }
+  ]
+}

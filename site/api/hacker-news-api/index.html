@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Hacker News API API - free tier, docs &amp; features</title>
+<meta name="description" content="Official, read-only Firebase-backed API for Hacker News: top, new and best stories, comments, users and full item trees. Unauthenticated and free.">
+<link rel="canonical" href="https://professional-x.github.io/freeapihub/api/hacker-news-api/">
+
+<meta property="og:site_name" content="FreeAPIHub">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hacker News API API - free tier, docs &amp; features">
+<meta property="og:description" content="Official, read-only Firebase-backed API for Hacker News: top, new and best stories, comments, users and full item trees. Unauthenticated and free.">
+<meta property="og:url" content="https://professional-x.github.io/freeapihub/api/hacker-news-api/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hacker News API API - free tier, docs &amp; features">
+<meta name="twitter:description" content="Official, read-only Firebase-backed API for Hacker News: top, new and best stories, comments, users and full item trees. Unauthenticated and free.">
+<link rel="icon" type="image/svg+xml" href="../../assets/images/favicon.svg">
+<link rel="stylesheet" href="../../assets/css/style.css">
+<script>(function(){try{var t=localStorage.getItem('fah-theme');if(!t){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="../../" aria-label="FreeAPIHub home">
+      <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+      <span class="brand-name">FreeAPIHub</span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="../../categories.html">Categories</a>
+      <a href="../../search.html">Search</a>
+      <a href="../../about.html">About</a>
+    </nav>
+    <div class="header-actions">
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <a class="button button-small nav-cta" href="../../submit.html">Submit API</a>
+    </div>
+  </div>
+</header>
+
+
+<main id="main">
+  <article class="api-page">
+    <div class="container container-narrow">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="../../">Home</a> <span aria-hidden="true">/</span>
+        <a href="../../category/news/">News</a> <span aria-hidden="true">/</span>
+        <span aria-current="page">Hacker News API</span>
+      </nav>
+
+      <header class="api-header">
+        <div class="api-title-row">
+          <h1>Hacker News API</h1>
+          <span class="badge status-badge status-verified">Verified</span>
+        </div>
+        <p class="api-tagline">Official, read-only Firebase-backed API for Hacker News: top, new and best stories, comments, users and full item trees. Unauthenticated and free.</p>
+        <div class="api-actions">
+          <a class="button" href="https://github.com/HackerNews/API" rel="noopener">Visit website</a>
+          <a class="button button-outline" href="https://github.com/HackerNews/API" rel="noopener">Read documentation</a>
+        </div>
+        <p class="verify-note">Last verified: <time datetime="2026-09-19">2026-09-19</time></p>
+      </header>
+
+      <section class="api-section" aria-label="API information">
+        <h2>At a glance</h2>
+        <dl class="info-table">
+          <div class="info-row"><dt>Category</dt><dd><a href="../../category/news/">News</a></dd></div>
+          <div class="info-row"><dt>Official website</dt><dd><a href="https://github.com/HackerNews/API" rel="noopener nofollow">https://github.com/HackerNews/API</a></dd></div>
+          <div class="info-row"><dt>Documentation</dt><dd><a href="https://github.com/HackerNews/API" rel="noopener nofollow">https://github.com/HackerNews/API</a></dd></div>
+          <div class="info-row"><dt>Authentication</dt><dd>No authentication</dd></div>
+          <div class="info-row"><dt>HTTPS</dt><dd>Yes</dd></div>
+          <div class="info-row"><dt>CORS</dt><dd>Yes</dd></div>
+          <div class="info-row"><dt>Free tier</dt><dd>Completely free with no API key; backed by Firebase with nearly unlimited read access.</dd></div>
+          <div class="info-row"></div>
+          <div class="info-row"><dt>License</dt><dd>unknown</dd></div>
+          <div class="info-row"><dt>Status</dt><dd>Verified and reachable at last automated check.</dd></div>
+        </dl>
+        
+      </section>
+
+      
+
+      <section class="api-section" aria-label="Features"><h2>Key features</h2><ul class="feature-list"><li>Top, new, best and ask/show story feeds</li><li>Full comment trees for every item</li><li>User profiles with submissions</li><li>Real-time updated data</li><li>No API key required</li></ul></section>
+
+      
+
+      
+
+      <section class="api-section" aria-label="What can you build"><h2>What can you build?</h2><ul class="use-case-list"><li>Tech news readers with custom filtering</li><li>Trend trackers for keywords across the community</li><li>Comment thread analyzers and discussion dashboards</li><li>Slack or Discord bots posting top stories</li></ul></section>
+
+      
+
+      <section class="api-section" aria-label="Related APIs">
+        <h2>Related APIs</h2>
+        <div class="api-grid api-grid-related">
+          <article class="api-card">
+  <div class="card-head">
+    <h3 class="card-title"><a href="../../api/github-rest-api/">GitHub REST API</a></h3>
+    <span class="badge badge-auth">API key</span>
+  </div>
+  <p class="card-desc">Official REST interface to GitHub data: repositories, issues, pull requests, users, commits, and more. Unauthenticated requests are limited; authenticated requests get a much higher rate limit.</p>
+  <div class="card-meta">
+    <a class="chip" href="../../category/developer-tools/">Developer Tools</a>
+    <span class="badge">HTTPS</span>
+    <span class="badge">CORS: yes</span>
+    
+  </div>
+</article>
+<article class="api-card">
+  <div class="card-head">
+    <h3 class="card-title"><a href="../../api/rest-countries/">REST Countries</a></h3>
+    <span class="badge badge-auth">No authentication</span>
+  </div>
+  <p class="card-desc">Free API providing information about world countries: names, capitals, populations, currencies, languages, flags, timezones and borders. No authentication required.</p>
+  <div class="card-meta">
+    <a class="chip" href="../../category/maps/">Maps &amp; Geography</a>
+    <span class="badge">HTTPS</span>
+    <span class="badge">CORS: yes</span>
+    
+  </div>
+</article>
+<article class="api-card">
+  <div class="card-head">
+    <h3 class="card-title"><a href="../../api/frankfurter/">Frankfurter</a></h3>
+    <span class="badge badge-auth">No authentication</span>
+  </div>
+  <p class="card-desc">Exchange rates API published by the European Central Bank. Converts between 30+ world currencies with historical rates back to 1999. No API key required.</p>
+  <div class="card-meta">
+    <a class="chip" href="../../category/finance/">Finance</a>
+    <span class="badge">HTTPS</span>
+    <span class="badge">CORS: yes</span>
+    
+  </div>
+</article>
+<article class="api-card">
+  <div class="card-head">
+    <h3 class="card-title"><a href="../../api/free-dictionary-api/">Free Dictionary API</a></h3>
+    <span class="badge badge-auth">No authentication</span>
+  </div>
+  <p class="card-desc">Simple, fast dictionary API returning definitions, phonetics, audio pronunciations, synonyms and antonyms for English words. No authentication required.</p>
+  <div class="card-meta">
+    <a class="chip" href="../../category/education/">Education</a>
+    <span class="badge">HTTPS</span>
+    <span class="badge">CORS: yes</span>
+    
+  </div>
+</article>
+<article class="api-card">
+  <div class="card-head">
+    <h3 class="card-title"><a href="../../api/open-meteo/">Open-Meteo</a></h3>
+    <span class="badge badge-auth">No authentication</span>
+  </div>
+  <p class="card-desc">Global weather forecast and historical weather data API for non-commercial use. Offers hourly and daily forecasts, air quality, and geocoding without requiring an API key.</p>
+  <div class="card-meta">
+    <a class="chip" href="../../category/weather/">Weather</a>
+    <span class="badge">HTTPS</span>
+    <span class="badge">CORS: yes</span>
+    
+  </div>
+</article>
+<article class="api-card">
+  <div class="card-head">
+    <h3 class="card-title"><a href="../../api/pokeapi/">PokeAPI</a></h3>
+    <span class="badge badge-auth">No authentication</span>
+  </div>
+  <p class="card-desc">Comprehensive RESTful API for Pokemon data: species, abilities, moves, types, items and game information. Free and open with no authentication.</p>
+  <div class="card-meta">
+    <a class="chip" href="../../category/entertainment/">Entertainment</a>
+    <span class="badge">HTTPS</span>
+    <span class="badge">CORS: yes</span>
+    
+  </div>
+</article>
+
+        </div>
+      </section>
+
+      <section class="api-section api-sources" aria-label="Sources">
+        <h2>Sources</h2>
+        <ul class="source-list">
+          <li><a href="https://github.com/HackerNews/API" rel="noopener">Official website</a> <span class="text-faint">(github.com)</span></li>
+        </ul>
+        <p class="disclaimer">This page summarises publicly available information about the Hacker News API. Details such as pricing, limits and availability can change at any time - always confirm critical information with the official documentation. Report issues through our <a href="../../submit.html">submission page</a>.</p>
+      </section>
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-about">
+      <div class="footer-brand">FreeAPIHub</div>
+      <p class="footer-tagline">Discover useful APIs for your next project</p>
+      <p class="footer-note">Listings are aggregated from public sources and automatically verified. Information can change - always confirm critical details with official documentation.</p>
+    </div>
+    <nav class="footer-col" aria-label="Explore">
+      <h2>Explore</h2>
+      <a href="../../">Home</a>
+      <a href="../../categories.html">All categories</a>
+      <a href="../../search.html">Search APIs</a>
+    </nav>
+    <nav class="footer-col" aria-label="Site information">
+      <h2>Site</h2>
+      <a href="../../about.html">About</a>
+      <a href="../../submit.html">Submit an API</a>
+      <a href="../../privacy.html">Privacy</a>
+      <a href="../../terms.html">Terms</a>
+    </nav>
+  </div>
+  <div class="container footer-legal">
+    <p>&copy; 2026 FreeAPIHub. Built as a static directory. External links lead to third-party services.</p>
+  </div>
+</footer>
+<script src="../../assets/js/theme.js" defer></script>
+
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "name": "Hacker News API", "description": "Official, read-only Firebase-backed API for Hacker News: top, new and best stories, comments, users and full item trees. Unauthenticated and free.", "url": "https://professional-x.github.io/freeapihub/api/hacker-news-api/", "about": {"@type": "SoftwareApplication", "name": "Hacker News API", "applicationCategory": "WebAPI", "operatingSystem": "Web", "url": "https://github.com/HackerNews/API"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://professional-x.github.io/freeapihub/"}, {"@type": "ListItem", "position": 2, "name": "News", "item": "https://professional-x.github.io/freeapihub/category/news/"}, {"@type": "ListItem", "position": 3, "name": "Hacker News API", "item": "https://professional-x.github.io/freeapihub/api/hacker-news-api/"}]}]}</script>
+</body>
+</html>

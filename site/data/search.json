@@ -1,0 +1,335 @@
+{
+  "generated": "2026-09-19",
+  "count": 14,
+  "apis": [
+    {
+      "name": "Alpha Vantage",
+      "url": "api/alpha-vantage/",
+      "description": "Stock market, forex and cryptocurrency data API with historical and intraday time series, technical indicators and fundamental data. Free API key tier available.",
+      "category": "finance",
+      "category_url": "category/finance/",
+      "tags": [
+        "stocks",
+        "finance",
+        "forex",
+        "crypto",
+        "market-data"
+      ],
+      "features": [
+        "Stock time series (intraday and daily)",
+        "Technical indicators (SMA, EMA, RSI)",
+        "Forex and cryptocurrency rates",
+        "Company fundamentals and earnings",
+        "Free key delivered instantly"
+      ],
+      "auth": "api-key",
+      "https": true,
+      "status": "verified"
+    },
+    {
+      "name": "CoinGecko",
+      "url": "api/coingecko/",
+      "description": "Cryptocurrency market data API: prices, market caps, historical charts, exchanges and trending coins across thousands of assets. Free public tier available.",
+      "category": "finance",
+      "category_url": "category/finance/",
+      "tags": [
+        "crypto",
+        "bitcoin",
+        "market-data",
+        "prices"
+      ],
+      "features": [
+        "Prices and market data for 10,000+ coins",
+        "Historical market charts",
+        "Exchange and trading volume data",
+        "Trending coins and global stats",
+        "Free demo key available"
+      ],
+      "auth": "api-key",
+      "https": true,
+      "status": "verified"
+    },
+    {
+      "name": "Frankfurter",
+      "url": "api/frankfurter/",
+      "description": "Exchange rates API published by the European Central Bank. Converts between 30+ world currencies with historical rates back to 1999. No API key required.",
+      "category": "finance",
+      "category_url": "category/finance/",
+      "tags": [
+        "currency",
+        "exchange-rates",
+        "ecb",
+        "finance",
+        "conversion"
+      ],
+      "features": [
+        "Latest and historical ECB reference rates",
+        "Currency conversion between 30+ currencies",
+        "Time series queries",
+        "No API key required"
+      ],
+      "auth": "none",
+      "https": true,
+      "status": "verified"
+    },
+    {
+      "name": "Free Dictionary API",
+      "url": "api/free-dictionary-api/",
+      "description": "Simple, fast dictionary API returning definitions, phonetics, audio pronunciations, synonyms and antonyms for English words. No authentication required.",
+      "category": "education",
+      "category_url": "category/education/",
+      "tags": [
+        "dictionary",
+        "english",
+        "words",
+        "definitions",
+        "language"
+      ],
+      "features": [
+        "Word definitions with parts of speech",
+        "Audio pronunciations",
+        "Synonyms and antonyms",
+        "Etymology where available",
+        "No API key required"
+      ],
+      "auth": "none",
+      "https": true,
+      "status": "verified"
+    },
+    {
+      "name": "GitHub REST API",
+      "url": "api/github-rest-api/",
+      "description": "Official REST interface to GitHub data: repositories, issues, pull requests, users, commits, and more. Unauthenticated requests are limited; authenticated requests get a much higher rate limit.",
+      "category": "developer-tools",
+      "category_url": "category/developer-tools/",
+      "tags": [
+        "git",
+        "repositories",
+        "open-source",
+        "ci",
+        "code"
+      ],
+      "features": [
+        "Full read/write access to repository data",
+        "Issues, pull requests, and commit history",
+        "User and organization profiles",
+        "Webhooks and release metadata",
+        "Official SDKs in many languages"
+      ],
+      "auth": "api-key",
+      "https": true,
+      "status": "verified"
+    },
+    {
+      "name": "Hacker News API",
+      "url": "api/hacker-news-api/",
+      "description": "Official, read-only Firebase-backed API for Hacker News: top, new and best stories, comments, users and full item trees. Unauthenticated and free.",
+      "category": "news",
+      "category_url": "category/news/",
+      "tags": [
+        "news",
+        "tech",
+        "community",
+        "startups"
+      ],
+      "features": [
+        "Top, new, best and ask/show story feeds",
+        "Full comment trees for every item",
+        "User profiles with submissions",
+        "Real-time updated data",
+        "No API key required"
+      ],
+      "auth": "none",
+      "https": true,
+      "status": "verified"
+    },
+    {
+      "name": "ipify",
+      "url": "api/ipify/",
+      "description": "Simple public IP address API that returns the caller's IPv4 or IPv6 address in plain text, JSON or JSONP. Handles billions of requests daily with no limits.",
+      "category": "developer-tools",
+      "category_url": "category/developer-tools/",
+      "tags": [
+        "ip",
+        "networking",
+        "utilities",
+        "ipv6"
+      ],
+      "features": [
+        "IPv4 and IPv6 detection",
+        "Plain text, JSON and JSONP output",
+        "No rate limits",
+        "No API key required"
+      ],
+      "auth": "none",
+      "https": true,
+      "status": "verified"
+    },
+    {
+      "name": "Nager.Date",
+      "url": "api/nager-date/",
+      "description": "Worldwide public holiday API covering 100+ countries: national holidays, long weekends, and next-upcoming holidays. Free and unauthenticated.",
+      "category": "government",
+      "category_url": "category/government/",
+      "tags": [
+        "holidays",
+        "calendar",
+        "countries",
+        "dates"
+      ],
+      "features": [
+        "Public holidays for 100+ countries",
+        "Long weekend detection",
+        "Next upcoming holidays endpoint",
+        "Workday and weekday checks",
+        "No API key required"
+      ],
+      "auth": "none",
+      "https": true,
+      "status": "verified"
+    },
+    {
+      "name": "NASA APIs",
+      "url": "api/nasa-apis/",
+      "description": "Official NASA data APIs: Astronomy Picture of the Day, Mars rover photos, Earth imagery, near-Earth objects, EPIC satellite images and more. Free API key available instantly.",
+      "category": "science",
+      "category_url": "category/science/",
+      "tags": [
+        "space",
+        "mars",
+        "earth",
+        "imagery",
+        "astronomy"
+      ],
+      "features": [
+        "Astronomy Picture of the Day (APOD)",
+        "Mars rover photo archives",
+        "Near-Earth asteroid tracking",
+        "Earth satellite imagery (Landsat, EPIC)",
+        "Instant free API key by email"
+      ],
+      "auth": "api-key",
+      "https": true,
+      "status": "verified"
+    },
+    {
+      "name": "Open-Meteo",
+      "url": "api/open-meteo/",
+      "description": "Global weather forecast and historical weather data API for non-commercial use. Offers hourly and daily forecasts, air quality, and geocoding without requiring an API key.",
+      "category": "weather",
+      "category_url": "category/weather/",
+      "tags": [
+        "weather",
+        "forecast",
+        "climate",
+        "air-quality",
+        "geocoding"
+      ],
+      "features": [
+        "Hourly and daily weather forecasts up to 16 days",
+        "Historical weather data back decades",
+        "Air quality and pollen data",
+        "Geocoding search for place names",
+        "No API key required"
+      ],
+      "auth": "none",
+      "https": true,
+      "status": "verified"
+    },
+    {
+      "name": "PokeAPI",
+      "url": "api/pokeapi/",
+      "description": "Comprehensive RESTful API for Pokemon data: species, abilities, moves, types, items and game information. Free and open with no authentication.",
+      "category": "entertainment",
+      "category_url": "category/entertainment/",
+      "tags": [
+        "pokemon",
+        "games",
+        "gaming",
+        "reference"
+      ],
+      "features": [
+        "Full Pokemon species and stat data",
+        "Moves, abilities, types and items",
+        "Game versions and encounter locations",
+        "Sprites and artwork URLs",
+        "GraphQL endpoint available"
+      ],
+      "auth": "none",
+      "https": true,
+      "status": "verified"
+    },
+    {
+      "name": "REST Countries",
+      "url": "api/rest-countries/",
+      "description": "Free API providing information about world countries: names, capitals, populations, currencies, languages, flags, timezones and borders. No authentication required.",
+      "category": "maps",
+      "category_url": "category/maps/",
+      "tags": [
+        "countries",
+        "geography",
+        "flags",
+        "population",
+        "reference"
+      ],
+      "features": [
+        "Country profiles with capital, region and population",
+        "Currencies, languages and borders",
+        "Flag images in SVG and PNG",
+        "Filterable field selection",
+        "No API key required"
+      ],
+      "auth": "none",
+      "https": true,
+      "status": "verified"
+    },
+    {
+      "name": "TheDogAPI",
+      "url": "api/thedogapi/",
+      "description": "Dog pictures and breed information API: thousands of curated images with temperament, life span, origin and weight data for hundreds of breeds. Free tier with optional key.",
+      "category": "images",
+      "category_url": "category/images/",
+      "tags": [
+        "dogs",
+        "animals",
+        "images",
+        "pets",
+        "breeds"
+      ],
+      "features": [
+        "Random dog image search",
+        "Breed data: temperament, origin, lifespan",
+        "Search by breed and category",
+        "Favourites and voting on free tier",
+        "Works without a key for basic use"
+      ],
+      "auth": "api-key",
+      "https": true,
+      "status": "verified"
+    },
+    {
+      "name": "TheSpaceDevs (Launch Library 2)",
+      "url": "api/thespacedevs-launch-library-2/",
+      "description": "Comprehensive spaceflight API covering upcoming rocket launches, spaceflight events, astronauts, space stations and spacecraft. Free tier available with rate limits.",
+      "category": "science",
+      "category_url": "category/science/",
+      "tags": [
+        "space",
+        "launches",
+        "rockets",
+        "astronomy",
+        "iss"
+      ],
+      "features": [
+        "Upcoming and past rocket launch schedules",
+        "Launch provider, rocket and pad details",
+        "Astronaut and space station data",
+        "Spaceflight event tracking",
+        "Live launch webcast links"
+      ],
+      "auth": "none",
+      "https": true,
+      "status": "verified"
+    }
+  ]
+}

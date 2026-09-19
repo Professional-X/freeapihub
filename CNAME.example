@@ -1,0 +1,18 @@
+# GitHub Pages custom domain template.
+#
+# To use a custom domain:
+#   1. Rename this file to "CNAME" (no extension), in the repository ROOT,
+#      and put your domain on a single line, e.g.:
+#          freeapihub.example.com
+#   2. At your DNS provider, create a CNAME record pointing that hostname to
+#      <your-username>.github.io
+#   3. In your repository: Settings -> Pages -> Custom domain -> enter the
+#      same domain and save. Wait for the DNS check to pass.
+#   4. IMPORTANT: update config/site.json so the generated canonical URLs,
+#      sitemap and robots.txt match your domain:
+#          "site_url": "https://freeapihub.example.com"
+#          "site_url_path": ""
+#   5. Re-run the "Deploy Site" workflow (Actions -> Deploy Site -> Run).
+#
+# Without this file the site works fine on the default
+# https://<username>.github.io/<repository>/ address.

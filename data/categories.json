@@ -1,0 +1,27 @@
+{
+  "_readme": "DO NOT EDIT normally. Category definitions used by the build system. The research step is constrained to these slugs (or 'other'). Counts are computed automatically at build time - empty categories are never published.",
+  "categories": [
+    {"slug": "ai", "name": "AI & Machine Learning", "description": "Artificial intelligence, machine learning, natural language processing, computer vision and speech APIs."},
+    {"slug": "finance", "name": "Finance", "description": "Currency exchange, stock market data, cryptocurrency, banking and payment-related APIs."},
+    {"slug": "weather", "name": "Weather", "description": "Forecasts, historical weather, climate data and meteorological APIs."},
+    {"slug": "maps", "name": "Maps & Geography", "description": "Mapping, geocoding, routing, places and geographic data APIs."},
+    {"slug": "images", "name": "Images", "description": "Image hosting, processing, search, generation and photo APIs."},
+    {"slug": "video", "name": "Video", "description": "Video streaming, metadata, conversion and management APIs."},
+    {"slug": "audio", "name": "Audio & Music", "description": "Music metadata, audio recognition, sound effects and podcast APIs."},
+    {"slug": "developer-tools", "name": "Developer Tools", "description": "Version control, hosting, testing, utilities and productivity tooling for developers."},
+    {"slug": "education", "name": "Education", "description": "Learning platforms, dictionaries, reference material and academic APIs."},
+    {"slug": "sports", "name": "Sports", "description": "Live scores, fixtures, standings and statistics for sports and esports."},
+    {"slug": "news", "name": "News", "description": "Headlines, article search, breaking news and media aggregation APIs."},
+    {"slug": "entertainment", "name": "Entertainment", "description": "Movies, TV shows, games, anime, memes and pop culture APIs."},
+    {"slug": "productivity", "name": "Productivity", "description": "Task management, calendars, notes, email and workflow automation APIs."},
+    {"slug": "science", "name": "Science", "description": "Space, astronomy, physics, chemistry, biology and research data APIs."},
+    {"slug": "security", "name": "Security", "description": "Threat intelligence, vulnerability databases, breach data and cryptography APIs."},
+    {"slug": "government", "name": "Government", "description": "Open data published by governments and public institutions: statistics, holidays, regulations."},
+    {"slug": "transportation", "name": "Transportation", "description": "Flight tracking, public transit, fuel prices, vehicle data and mobility APIs."},
+    {"slug": "e-commerce", "name": "E-commerce", "description": "Product data, pricing, shopping platforms and merchant service APIs."},
+    {"slug": "books", "name": "Books & Literature", "description": "Book catalogs, library data, reading platforms and literary reference APIs."},
+    {"slug": "food", "name": "Food & Drink", "description": "Recipes, nutrition data, restaurants and beverage APIs."},
+    {"slug": "health", "name": "Health", "description": "Medical reference data, fitness statistics and wellness APIs."},
+    {"slug": "other", "name": "Other", "description": "Useful APIs that do not fit a dedicated category."}
+  ]
+}

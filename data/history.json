@@ -1,0 +1,85 @@
+{
+  "_readme": "DO NOT EDIT. Append-only history of daily publications, used for auditing and the homepage 'recently added' logic.",
+  "history": [
+    {
+      "date": "2026-09-19",
+      "added": [
+        {
+          "slug": "open-meteo",
+          "name": "Open-Meteo",
+          "category": "weather"
+        },
+        {
+          "slug": "github-rest-api",
+          "name": "GitHub REST API",
+          "category": "developer-tools"
+        },
+        {
+          "slug": "rest-countries",
+          "name": "REST Countries",
+          "category": "maps"
+        },
+        {
+          "slug": "frankfurter",
+          "name": "Frankfurter",
+          "category": "finance"
+        },
+        {
+          "slug": "pokeapi",
+          "name": "PokeAPI",
+          "category": "entertainment"
+        },
+        {
+          "slug": "thespacedevs-launch-library-2",
+          "name": "TheSpaceDevs (Launch Library 2)",
+          "category": "science"
+        },
+        {
+          "slug": "nasa-apis",
+          "name": "NASA APIs",
+          "category": "science"
+        },
+        {
+          "slug": "free-dictionary-api",
+          "name": "Free Dictionary API",
+          "category": "education"
+        },
+        {
+          "slug": "nager-date",
+          "name": "Nager.Date",
+          "category": "government"
+        },
+        {
+          "slug": "thedogapi",
+          "name": "TheDogAPI",
+          "category": "images"
+        },
+        {
+          "slug": "ipify",
+          "name": "ipify",
+          "category": "developer-tools"
+        },
+        {
+          "slug": "alpha-vantage",
+          "name": "Alpha Vantage",
+          "category": "finance"
+        },
+        {
+          "slug": "coingecko",
+          "name": "CoinGecko",
+          "category": "finance"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "added": [
+        {
+          "slug": "hacker-news-api",
+          "name": "Hacker News API",
+          "category": "news"
+        }
+      ]
+    }
+  ]
+}
