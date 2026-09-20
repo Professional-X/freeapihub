@@ -30,6 +30,16 @@
       "failed": 15,
       "skipped": 1,
       "duration_seconds": 37
+    },
+    {
+      "date": "2026-09-20",
+      "discovered": 40,
+      "duplicates": 40,
+      "verified": 6,
+      "published": 0,
+      "failed": 10,
+      "skipped": 6,
+      "duration_seconds": 11
     }
   ]
 }
