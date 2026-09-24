@@ -70,6 +70,16 @@
       "failed": 9,
       "skipped": 6,
       "duration_seconds": 10
+    },
+    {
+      "date": "2026-09-24",
+      "discovered": 40,
+      "duplicates": 31,
+      "verified": 7,
+      "published": 0,
+      "failed": 9,
+      "skipped": 6,
+      "duration_seconds": 23
     }
   ]
 }
