@@ -22,7 +22,7 @@
       "_docs_status": 0,
       "_describes_api": true,
       "_fail_reason": "documentation URL missing or unreachable",
-      "verified_date": "2026-10-05",
+      "verified_date": "2026-10-06",
       "status": "verified",
       "_verify_score": 65
     },
@@ -47,7 +47,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-05",
+      "verified_date": "2026-10-06",
       "status": "verified",
       "_verify_score": 50
     },
@@ -73,7 +73,7 @@
       "_docs_status": 0,
       "_describes_api": true,
       "_fail_reason": "documentation URL missing or unreachable",
-      "verified_date": "2026-10-05",
+      "verified_date": "2026-10-06",
       "status": "verified",
       "_verify_score": 65
     },
@@ -99,7 +99,7 @@
       "_docs_status": 0,
       "_describes_api": true,
       "_fail_reason": "documentation URL missing or unreachable",
-      "verified_date": "2026-10-05",
+      "verified_date": "2026-10-06",
       "status": "verified",
       "_verify_score": 50
     },
@@ -124,7 +124,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-05",
+      "verified_date": "2026-10-06",
       "status": "verified",
       "_verify_score": 50
     },
@@ -149,7 +149,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-05",
+      "verified_date": "2026-10-06",
       "status": "verified",
       "_verify_score": 65
     },
@@ -174,7 +174,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-05",
+      "verified_date": "2026-10-06",
       "status": "verified",
       "_verify_score": 65
     },
@@ -613,7 +613,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-05",
+      "verified_date": "2026-10-06",
       "status": "verified",
       "_verify_score": 65
     },
@@ -638,7 +638,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-05",
+      "verified_date": "2026-10-06",
       "status": "verified",
       "_verify_score": 65
     },
@@ -663,7 +663,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-05",
+      "verified_date": "2026-10-06",
       "status": "verified",
       "_verify_score": 50
     },
@@ -863,7 +863,7 @@
       "cors_hint": "unknown",
       "source": "public-apis",
       "added_date": "2026-10-04",
-      "failed_attempts": 1,
+      "failed_attempts": 2,
       "_official_ok": true,
       "_official_status": 200,
       "_official_error": null,
@@ -895,7 +895,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-05",
+      "verified_date": "2026-10-06",
       "status": "verified",
       "_verify_score": 50
     },
@@ -911,7 +911,7 @@
       "cors_hint": "unknown",
       "source": "public-apis",
       "added_date": "2026-10-04",
-      "failed_attempts": 1,
+      "failed_attempts": 2,
       "_official_ok": true,
       "_official_status": 200,
       "_official_error": null,
@@ -966,7 +966,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-05",
+      "verified_date": "2026-10-06",
       "status": "verified",
       "_verify_score": 65
     },
@@ -991,7 +991,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-05",
+      "verified_date": "2026-10-06",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1017,6 +1017,31 @@
       "_docs_status": 0,
       "_describes_api": true,
       "_fail_reason": "description missing or too short"
+    },
+    {
+      "name": "Silicon Floor",
+      "official_url": "https://siliconfloor.com/docs/mcp",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "Who owns AI and chip stocks, what insiders sell, how fast they grow: answers from SEC filings",
+      "category_hint": "other",
+      "auth_hint": "none",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-10-06",
+      "failed_attempts": 0,
+      "_official_ok": true,
+      "_official_status": 200,
+      "_official_error": null,
+      "https": true,
+      "_official_describes_api": true,
+      "_docs_ok": false,
+      "_docs_status": 0,
+      "_describes_api": true,
+      "verified_date": "2026-10-06",
+      "status": "verified",
+      "_verify_score": 65
     }
   ]
 }
