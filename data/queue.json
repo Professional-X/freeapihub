@@ -22,7 +22,7 @@
       "_docs_status": 0,
       "_describes_api": true,
       "_fail_reason": "documentation URL missing or unreachable",
-      "verified_date": "2026-10-06",
+      "verified_date": "2026-10-07",
       "status": "verified",
       "_verify_score": 65
     },
@@ -47,7 +47,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-06",
+      "verified_date": "2026-10-07",
       "status": "verified",
       "_verify_score": 50
     },
@@ -73,7 +73,7 @@
       "_docs_status": 0,
       "_describes_api": true,
       "_fail_reason": "documentation URL missing or unreachable",
-      "verified_date": "2026-10-06",
+      "verified_date": "2026-10-07",
       "status": "verified",
       "_verify_score": 65
     },
@@ -99,7 +99,7 @@
       "_docs_status": 0,
       "_describes_api": true,
       "_fail_reason": "documentation URL missing or unreachable",
-      "verified_date": "2026-10-06",
+      "verified_date": "2026-10-07",
       "status": "verified",
       "_verify_score": 50
     },
@@ -124,7 +124,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-06",
+      "verified_date": "2026-10-07",
       "status": "verified",
       "_verify_score": 50
     },
@@ -149,7 +149,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-06",
+      "verified_date": "2026-10-07",
       "status": "verified",
       "_verify_score": 65
     },
@@ -174,7 +174,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-06",
+      "verified_date": "2026-10-07",
       "status": "verified",
       "_verify_score": 65
     },
@@ -223,29 +223,6 @@
       "_docs_status": 0,
       "_describes_api": true,
       "_fail_reason": "description missing or too short"
-    },
-    {
-      "name": "AniAPI",
-      "official_url": "https://aniapi.com/docs",
-      "documentation_url": "",
-      "repo_url": "",
-      "description": "Anime discovery, streaming & syncing with trackers",
-      "category_hint": "entertainment",
-      "auth_hint": "oauth",
-      "https_hint": true,
-      "cors_hint": "yes",
-      "source": "public-apis",
-      "added_date": "2026-09-24",
-      "failed_attempts": 2,
-      "_official_ok": true,
-      "_official_status": 200,
-      "_official_error": null,
-      "https": false,
-      "_official_describes_api": false,
-      "_docs_ok": false,
-      "_docs_status": 0,
-      "_describes_api": false,
-      "_fail_reason": "no API signal on official page or documentation"
     },
     {
       "name": "AniDB",
@@ -613,7 +590,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-06",
+      "verified_date": "2026-10-07",
       "status": "verified",
       "_verify_score": 65
     },
@@ -638,7 +615,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-06",
+      "verified_date": "2026-10-07",
       "status": "verified",
       "_verify_score": 65
     },
@@ -663,7 +640,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-06",
+      "verified_date": "2026-10-07",
       "status": "verified",
       "_verify_score": 50
     },
@@ -895,7 +872,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-06",
+      "verified_date": "2026-10-07",
       "status": "verified",
       "_verify_score": 50
     },
@@ -966,7 +943,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-06",
+      "verified_date": "2026-10-07",
       "status": "verified",
       "_verify_score": 65
     },
@@ -991,7 +968,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-06",
+      "verified_date": "2026-10-07",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1007,7 +984,7 @@
       "cors_hint": "unknown",
       "source": "public-apis",
       "added_date": "2026-10-04",
-      "failed_attempts": 1,
+      "failed_attempts": 2,
       "_official_ok": true,
       "_official_status": 200,
       "_official_error": null,
@@ -1039,7 +1016,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-06",
+      "verified_date": "2026-10-07",
       "status": "verified",
       "_verify_score": 65
     }
