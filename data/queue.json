@@ -22,7 +22,7 @@
       "_docs_status": 0,
       "_describes_api": true,
       "_fail_reason": "documentation URL missing or unreachable",
-      "verified_date": "2026-10-07",
+      "verified_date": "2026-10-08",
       "status": "verified",
       "_verify_score": 65
     },
@@ -47,7 +47,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-07",
+      "verified_date": "2026-10-08",
       "status": "verified",
       "_verify_score": 50
     },
@@ -73,7 +73,7 @@
       "_docs_status": 0,
       "_describes_api": true,
       "_fail_reason": "documentation URL missing or unreachable",
-      "verified_date": "2026-10-07",
+      "verified_date": "2026-10-08",
       "status": "verified",
       "_verify_score": 65
     },
@@ -99,7 +99,7 @@
       "_docs_status": 0,
       "_describes_api": true,
       "_fail_reason": "documentation URL missing or unreachable",
-      "verified_date": "2026-10-07",
+      "verified_date": "2026-10-08",
       "status": "verified",
       "_verify_score": 50
     },
@@ -124,7 +124,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-07",
+      "verified_date": "2026-10-08",
       "status": "verified",
       "_verify_score": 50
     },
@@ -149,7 +149,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-07",
+      "verified_date": "2026-10-08",
       "status": "verified",
       "_verify_score": 65
     },
@@ -174,7 +174,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-07",
+      "verified_date": "2026-10-08",
       "status": "verified",
       "_verify_score": 65
     },
@@ -223,29 +223,6 @@
       "_docs_status": 0,
       "_describes_api": true,
       "_fail_reason": "description missing or too short"
-    },
-    {
-      "name": "AniDB",
-      "official_url": "https://wiki.anidb.net/HTTP_API_Definition",
-      "documentation_url": "",
-      "repo_url": "",
-      "description": "Anime Database",
-      "category_hint": "entertainment",
-      "auth_hint": "api-key",
-      "https_hint": false,
-      "cors_hint": "unknown",
-      "source": "public-apis",
-      "added_date": "2026-09-24",
-      "failed_attempts": 2,
-      "_official_ok": true,
-      "_official_status": 403,
-      "_official_error": null,
-      "https": true,
-      "_official_describes_api": false,
-      "_docs_ok": false,
-      "_docs_status": 0,
-      "_describes_api": false,
-      "_fail_reason": "no API signal on official page or documentation"
     },
     {
       "name": "AniList",
@@ -590,7 +567,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-07",
+      "verified_date": "2026-10-08",
       "status": "verified",
       "_verify_score": 65
     },
@@ -615,7 +592,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-07",
+      "verified_date": "2026-10-08",
       "status": "verified",
       "_verify_score": 65
     },
@@ -640,7 +617,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-07",
+      "verified_date": "2026-10-08",
       "status": "verified",
       "_verify_score": 50
     },
@@ -872,7 +849,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-07",
+      "verified_date": "2026-10-08",
       "status": "verified",
       "_verify_score": 50
     },
@@ -943,7 +920,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-07",
+      "verified_date": "2026-10-08",
       "status": "verified",
       "_verify_score": 65
     },
@@ -968,7 +945,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-07",
+      "verified_date": "2026-10-08",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1016,9 +993,32 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-07",
+      "verified_date": "2026-10-08",
       "status": "verified",
       "_verify_score": 65
+    },
+    {
+      "name": "AniAPI",
+      "official_url": "https://aniapi.com/docs",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "Anime discovery, streaming & syncing with trackers",
+      "category_hint": "entertainment",
+      "auth_hint": "oauth",
+      "https_hint": true,
+      "cors_hint": "yes",
+      "source": "public-apis",
+      "added_date": "2026-10-08",
+      "failed_attempts": 1,
+      "_official_ok": true,
+      "_official_status": 200,
+      "_official_error": null,
+      "https": false,
+      "_official_describes_api": false,
+      "_docs_ok": false,
+      "_docs_status": 0,
+      "_describes_api": false,
+      "_fail_reason": "no API signal on official page or documentation"
     }
   ]
 }
