@@ -47,7 +47,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-14",
+      "verified_date": "2026-10-15",
       "status": "verified",
       "_verify_score": 50
     },
@@ -124,7 +124,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-14",
+      "verified_date": "2026-10-15",
       "status": "verified",
       "_verify_score": 50
     },
@@ -149,7 +149,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-14",
+      "verified_date": "2026-10-15",
       "status": "verified",
       "_verify_score": 65
     },
@@ -174,7 +174,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-14",
+      "verified_date": "2026-10-15",
       "status": "verified",
       "_verify_score": 65
     },
@@ -544,7 +544,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-14",
+      "verified_date": "2026-10-15",
       "status": "verified",
       "_verify_score": 65
     },
@@ -569,7 +569,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-14",
+      "verified_date": "2026-10-15",
       "status": "verified",
       "_verify_score": 65
     },
@@ -594,7 +594,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-14",
+      "verified_date": "2026-10-15",
       "status": "verified",
       "_verify_score": 50
     },
@@ -826,7 +826,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-14",
+      "verified_date": "2026-10-15",
       "status": "verified",
       "_verify_score": 50
     },
@@ -897,7 +897,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-14",
+      "verified_date": "2026-10-15",
       "status": "verified",
       "_verify_score": 65
     },
@@ -922,7 +922,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-14",
+      "verified_date": "2026-10-15",
       "status": "verified",
       "_verify_score": 65
     },
@@ -970,7 +970,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-14",
+      "verified_date": "2026-10-15",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1041,7 +1041,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-14",
+      "verified_date": "2026-10-15",
       "status": "verified",
       "_verify_score": 50
     },
@@ -1066,7 +1066,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-14",
+      "verified_date": "2026-10-15",
       "status": "verified",
       "_verify_score": 50
     },
@@ -1091,7 +1091,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-14",
+      "verified_date": "2026-10-15",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1139,7 +1139,32 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-14",
+      "verified_date": "2026-10-15",
+      "status": "verified",
+      "_verify_score": 65
+    },
+    {
+      "name": "SkyAccess",
+      "official_url": "https://github.com/sky-access/skyaccess-mcp",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "Search 5,000+ live empty leg flights, get charter price estimates and booking links",
+      "category_hint": "other",
+      "auth_hint": "none",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-10-15",
+      "failed_attempts": 0,
+      "_official_ok": true,
+      "_official_status": 200,
+      "_official_error": null,
+      "https": true,
+      "_official_describes_api": true,
+      "_docs_ok": false,
+      "_docs_status": 0,
+      "_describes_api": true,
+      "verified_date": "2026-10-15",
       "status": "verified",
       "_verify_score": 65
     }
