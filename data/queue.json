@@ -47,7 +47,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-24",
+      "verified_date": "2026-10-25",
       "status": "verified",
       "_verify_score": 50
     },
@@ -124,7 +124,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-24",
+      "verified_date": "2026-10-25",
       "status": "verified",
       "_verify_score": 50
     },
@@ -149,7 +149,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-24",
+      "verified_date": "2026-10-25",
       "status": "verified",
       "_verify_score": 65
     },
@@ -174,7 +174,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-24",
+      "verified_date": "2026-10-25",
       "status": "verified",
       "_verify_score": 65
     },
@@ -544,7 +544,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-24",
+      "verified_date": "2026-10-25",
       "status": "verified",
       "_verify_score": 65
     },
@@ -569,7 +569,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-24",
+      "verified_date": "2026-10-25",
       "status": "verified",
       "_verify_score": 65
     },
@@ -594,7 +594,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-24",
+      "verified_date": "2026-10-25",
       "status": "verified",
       "_verify_score": 50
     },
@@ -826,7 +826,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-24",
+      "verified_date": "2026-10-25",
       "status": "verified",
       "_verify_score": 50
     },
@@ -897,7 +897,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-24",
+      "verified_date": "2026-10-25",
       "status": "verified",
       "_verify_score": 65
     },
@@ -922,7 +922,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-24",
+      "verified_date": "2026-10-25",
       "status": "verified",
       "_verify_score": 65
     },
@@ -970,7 +970,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-24",
+      "verified_date": "2026-10-25",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1041,7 +1041,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-24",
+      "verified_date": "2026-10-25",
       "status": "verified",
       "_verify_score": 50
     },
@@ -1066,7 +1066,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-24",
+      "verified_date": "2026-10-25",
       "status": "verified",
       "_verify_score": 50
     },
@@ -1091,7 +1091,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-24",
+      "verified_date": "2026-10-25",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1139,7 +1139,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-24",
+      "verified_date": "2026-10-25",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1164,7 +1164,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-10-24",
+      "verified_date": "2026-10-25",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1264,6 +1264,48 @@
       "cors_hint": "unknown",
       "source": "public-apis",
       "added_date": "2026-10-21",
+      "failed_attempts": 0
+    },
+    {
+      "name": "crawlbrulee",
+      "official_url": "https://github.com/crawlbrulee/crawlbrulee-mcp",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "EU-native web scraping for AI agents & developers: turn any page into markdown, screenshots and more",
+      "category_hint": "other",
+      "auth_hint": "api-key",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-10-25",
+      "failed_attempts": 0
+    },
+    {
+      "name": "IndiaInsurances",
+      "official_url": "https://indiainsurances.com/for-agents",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "Indian insurance policy wordings read clause by clause, with verbatim quotes",
+      "category_hint": "other",
+      "auth_hint": "none",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-10-25",
+      "failed_attempts": 0
+    },
+    {
+      "name": "Scalekit",
+      "official_url": "https://github.com/scalekit-inc/scalekit-mcp-server",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "Manage auth for AI agents and MCP servers: environments, orgs, users, SSO connections and roles",
+      "category_hint": "other",
+      "auth_hint": "oauth",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-10-25",
       "failed_attempts": 0
     }
   ]
