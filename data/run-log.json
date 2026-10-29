@@ -420,6 +420,16 @@
       "failed": 0,
       "skipped": 6,
       "duration_seconds": 11
+    },
+    {
+      "date": "2026-10-29",
+      "discovered": 40,
+      "duplicates": 40,
+      "verified": 16,
+      "published": 0,
+      "failed": 0,
+      "skipped": 6,
+      "duration_seconds": 10
     }
   ]
 }
