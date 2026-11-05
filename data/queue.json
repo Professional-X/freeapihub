@@ -47,7 +47,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-04",
+      "verified_date": "2026-11-05",
       "status": "verified",
       "_verify_score": 50
     },
@@ -124,7 +124,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-04",
+      "verified_date": "2026-11-05",
       "status": "verified",
       "_verify_score": 50
     },
@@ -149,7 +149,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-04",
+      "verified_date": "2026-11-05",
       "status": "verified",
       "_verify_score": 65
     },
@@ -174,7 +174,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-04",
+      "verified_date": "2026-11-05",
       "status": "verified",
       "_verify_score": 65
     },
@@ -544,7 +544,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-04",
+      "verified_date": "2026-11-05",
       "status": "verified",
       "_verify_score": 65
     },
@@ -569,7 +569,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-04",
+      "verified_date": "2026-11-05",
       "status": "verified",
       "_verify_score": 65
     },
@@ -594,7 +594,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-04",
+      "verified_date": "2026-11-05",
       "status": "verified",
       "_verify_score": 50
     },
@@ -826,7 +826,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-04",
+      "verified_date": "2026-11-05",
       "status": "verified",
       "_verify_score": 50
     },
@@ -897,7 +897,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-04",
+      "verified_date": "2026-11-05",
       "status": "verified",
       "_verify_score": 65
     },
@@ -922,7 +922,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-04",
+      "verified_date": "2026-11-05",
       "status": "verified",
       "_verify_score": 65
     },
@@ -970,7 +970,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-04",
+      "verified_date": "2026-11-05",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1041,7 +1041,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-04",
+      "verified_date": "2026-11-05",
       "status": "verified",
       "_verify_score": 50
     },
@@ -1066,7 +1066,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-04",
+      "verified_date": "2026-11-05",
       "status": "verified",
       "_verify_score": 50
     },
@@ -1091,7 +1091,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-04",
+      "verified_date": "2026-11-05",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1139,7 +1139,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-04",
+      "verified_date": "2026-11-05",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1164,7 +1164,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-04",
+      "verified_date": "2026-11-05",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1376,6 +1376,62 @@
       "cors_hint": "unknown",
       "source": "public-apis",
       "added_date": "2026-11-02",
+      "failed_attempts": 0
+    },
+    {
+      "name": "iGaming Tools",
+      "official_url": "https://i-gaming.tools/docs/mcp",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "Online slot specs, RTP variants, providers, regulators, news, jobs and search demand",
+      "category_hint": "other",
+      "auth_hint": "none",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-11-05",
+      "failed_attempts": 0
+    },
+    {
+      "name": "InjectScan",
+      "official_url": "https://github.com/Duffey234/injectscan",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "Scores text, web pages and MCP tool definitions for prompt injection with deterministic rules",
+      "category_hint": "other",
+      "auth_hint": "none",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-11-05",
+      "failed_attempts": 0
+    },
+    {
+      "name": "LucyESL",
+      "official_url": "https://lucyesl.com/developers",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "English-teaching jobs in South Korea with pay, hours and housing as facts, plus salary statistics",
+      "category_hint": "other",
+      "auth_hint": "none",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-11-05",
+      "failed_attempts": 0
+    },
+    {
+      "name": "PourWire",
+      "official_url": "https://pourwire.com/mcp",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "New US liquor license filings: restaurants and bars about to open in 7 metros, plus metro stats",
+      "category_hint": "other",
+      "auth_hint": "none",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-11-05",
       "failed_attempts": 0
     }
   ]
