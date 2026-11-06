@@ -47,7 +47,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-05",
+      "verified_date": "2026-11-06",
       "status": "verified",
       "_verify_score": 50
     },
@@ -124,7 +124,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-05",
+      "verified_date": "2026-11-06",
       "status": "verified",
       "_verify_score": 50
     },
@@ -149,7 +149,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-05",
+      "verified_date": "2026-11-06",
       "status": "verified",
       "_verify_score": 65
     },
@@ -174,7 +174,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-05",
+      "verified_date": "2026-11-06",
       "status": "verified",
       "_verify_score": 65
     },
@@ -544,7 +544,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-05",
+      "verified_date": "2026-11-06",
       "status": "verified",
       "_verify_score": 65
     },
@@ -569,7 +569,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-05",
+      "verified_date": "2026-11-06",
       "status": "verified",
       "_verify_score": 65
     },
@@ -594,7 +594,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-05",
+      "verified_date": "2026-11-06",
       "status": "verified",
       "_verify_score": 50
     },
@@ -826,7 +826,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-05",
+      "verified_date": "2026-11-06",
       "status": "verified",
       "_verify_score": 50
     },
@@ -897,7 +897,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-05",
+      "verified_date": "2026-11-06",
       "status": "verified",
       "_verify_score": 65
     },
@@ -922,7 +922,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-05",
+      "verified_date": "2026-11-06",
       "status": "verified",
       "_verify_score": 65
     },
@@ -970,7 +970,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-05",
+      "verified_date": "2026-11-06",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1041,7 +1041,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-05",
+      "verified_date": "2026-11-06",
       "status": "verified",
       "_verify_score": 50
     },
@@ -1066,7 +1066,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-05",
+      "verified_date": "2026-11-06",
       "status": "verified",
       "_verify_score": 50
     },
@@ -1091,7 +1091,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-05",
+      "verified_date": "2026-11-06",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1139,7 +1139,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-05",
+      "verified_date": "2026-11-06",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1164,7 +1164,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-05",
+      "verified_date": "2026-11-06",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1432,6 +1432,34 @@
       "cors_hint": "unknown",
       "source": "public-apis",
       "added_date": "2026-11-05",
+      "failed_attempts": 0
+    },
+    {
+      "name": "Git",
+      "official_url": "https://github.com/modelcontextprotocol/servers/tree/main/src/git",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "Read, search, diff, and commit to local Git repositories",
+      "category_hint": "other",
+      "auth_hint": "none",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-11-06",
+      "failed_attempts": 0
+    },
+    {
+      "name": "Vitalityfit",
+      "official_url": "https://vitality-fit.de/mcp",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "Cheapest offers for health products from German online shops and pharmacies by name, PZN or EAN",
+      "category_hint": "other",
+      "auth_hint": "none",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-11-06",
       "failed_attempts": 0
     }
   ]
