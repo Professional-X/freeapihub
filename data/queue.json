@@ -47,7 +47,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-11",
+      "verified_date": "2026-11-12",
       "status": "verified",
       "_verify_score": 50
     },
@@ -124,7 +124,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-11",
+      "verified_date": "2026-11-12",
       "status": "verified",
       "_verify_score": 50
     },
@@ -149,7 +149,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-11",
+      "verified_date": "2026-11-12",
       "status": "verified",
       "_verify_score": 65
     },
@@ -174,7 +174,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-11",
+      "verified_date": "2026-11-12",
       "status": "verified",
       "_verify_score": 65
     },
@@ -570,7 +570,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-11",
+      "verified_date": "2026-11-12",
       "status": "verified",
       "_verify_score": 65
     },
@@ -595,7 +595,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-11",
+      "verified_date": "2026-11-12",
       "status": "verified",
       "_verify_score": 50
     },
@@ -827,7 +827,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-11",
+      "verified_date": "2026-11-12",
       "status": "verified",
       "_verify_score": 50
     },
@@ -898,7 +898,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-11",
+      "verified_date": "2026-11-12",
       "status": "verified",
       "_verify_score": 65
     },
@@ -972,7 +972,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-11",
+      "verified_date": "2026-11-12",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1043,7 +1043,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-11",
+      "verified_date": "2026-11-12",
       "status": "verified",
       "_verify_score": 50
     },
@@ -1143,7 +1143,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-11",
+      "verified_date": "2026-11-12",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1194,7 +1194,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-11",
+      "verified_date": "2026-11-12",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1219,7 +1219,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-11",
+      "verified_date": "2026-11-12",
       "status": "verified",
       "_verify_score": 50
     },
@@ -1267,7 +1267,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-11",
+      "verified_date": "2026-11-12",
       "status": "verified",
       "_verify_score": 50
     },
@@ -1292,7 +1292,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-11",
+      "verified_date": "2026-11-12",
       "status": "verified",
       "_verify_score": 50
     },
@@ -1317,7 +1317,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-11",
+      "verified_date": "2026-11-12",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1585,6 +1585,62 @@
       "cors_hint": "unknown",
       "source": "public-apis",
       "added_date": "2026-11-08",
+      "failed_attempts": 0
+    },
+    {
+      "name": "Company Facts",
+      "official_url": "https://companyfacts.dev/",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "New US businesses from state registers, company registers, tech stack and hiring, each sourced",
+      "category_hint": "other",
+      "auth_hint": "none",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-11-12",
+      "failed_attempts": 0
+    },
+    {
+      "name": "RealMarket",
+      "official_url": "https://realmarketapi.com/docs/mcp",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "Live gold, forex, crypto and stock prices, indicators and market analysis for AI agents",
+      "category_hint": "other",
+      "auth_hint": "api-key",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-11-12",
+      "failed_attempts": 0
+    },
+    {
+      "name": "Signal Lab",
+      "official_url": "https://signal-lab-jet.vercel.app/mcp",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "Catalog of free market, macro, weather, news and OSINT data sources, with terms links and skills",
+      "category_hint": "other",
+      "auth_hint": "none",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-11-12",
+      "failed_attempts": 0
+    },
+    {
+      "name": "Transcript Dock",
+      "official_url": "https://github.com/TranscriptDock/transcriptdock-mcp",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "Transcripts of YouTube, TikTok and Instagram videos in one tool call, with SRT and VTT exports",
+      "category_hint": "other",
+      "auth_hint": "oauth",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-11-12",
       "failed_attempts": 0
     }
   ]

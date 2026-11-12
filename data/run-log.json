@@ -560,6 +560,16 @@
       "failed": 0,
       "skipped": 6,
       "duration_seconds": 7
+    },
+    {
+      "date": "2026-11-12",
+      "discovered": 40,
+      "duplicates": 36,
+      "verified": 16,
+      "published": 0,
+      "failed": 0,
+      "skipped": 6,
+      "duration_seconds": 8
     }
   ]
 }
