@@ -47,7 +47,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-13",
+      "verified_date": "2026-11-14",
       "status": "verified",
       "_verify_score": 50
     },
@@ -124,7 +124,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-13",
+      "verified_date": "2026-11-14",
       "status": "verified",
       "_verify_score": 50
     },
@@ -149,7 +149,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-13",
+      "verified_date": "2026-11-14",
       "status": "verified",
       "_verify_score": 65
     },
@@ -174,7 +174,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-13",
+      "verified_date": "2026-11-14",
       "status": "verified",
       "_verify_score": 65
     },
@@ -570,7 +570,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-13",
+      "verified_date": "2026-11-14",
       "status": "verified",
       "_verify_score": 65
     },
@@ -595,7 +595,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-13",
+      "verified_date": "2026-11-14",
       "status": "verified",
       "_verify_score": 50
     },
@@ -827,7 +827,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-13",
+      "verified_date": "2026-11-14",
       "status": "verified",
       "_verify_score": 50
     },
@@ -898,7 +898,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-13",
+      "verified_date": "2026-11-14",
       "status": "verified",
       "_verify_score": 65
     },
@@ -972,7 +972,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-13",
+      "verified_date": "2026-11-14",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1043,7 +1043,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-13",
+      "verified_date": "2026-11-14",
       "status": "verified",
       "_verify_score": 50
     },
@@ -1143,7 +1143,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-13",
+      "verified_date": "2026-11-14",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1194,7 +1194,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-13",
+      "verified_date": "2026-11-14",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1219,7 +1219,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-13",
+      "verified_date": "2026-11-14",
       "status": "verified",
       "_verify_score": 50
     },
@@ -1267,7 +1267,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-13",
+      "verified_date": "2026-11-14",
       "status": "verified",
       "_verify_score": 50
     },
@@ -1292,7 +1292,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-13",
+      "verified_date": "2026-11-14",
       "status": "verified",
       "_verify_score": 50
     },
@@ -1317,7 +1317,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-13",
+      "verified_date": "2026-11-14",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1641,6 +1641,76 @@
       "cors_hint": "unknown",
       "source": "public-apis",
       "added_date": "2026-11-12",
+      "failed_attempts": 0
+    },
+    {
+      "name": "CartViral",
+      "official_url": "https://cartviral.com/mcp",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "AI product videos, photos and ads for e-commerce from a product link or photos",
+      "category_hint": "other",
+      "auth_hint": "oauth",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-11-14",
+      "failed_attempts": 0
+    },
+    {
+      "name": "EU Nordic Open Data",
+      "official_url": "https://github.com/itulo/eu-nordic-open-data-mcp",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "EU tenders, sanctions, VIES VAT, ECB FX, ENISA EUVD, GLEIF LEI and Finnish/Norwegian registries",
+      "category_hint": "other",
+      "auth_hint": "none",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-11-14",
+      "failed_attempts": 0
+    },
+    {
+      "name": "HEY Research Lab",
+      "official_url": "https://heyresearch.xyz/developers/agents",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "Is a Robinhood Chain token or project still being built? Ships and contracts, each with its source",
+      "category_hint": "other",
+      "auth_hint": "none",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-11-14",
+      "failed_attempts": 0
+    },
+    {
+      "name": "OptimistFi",
+      "official_url": "https://optimistfi.com/mcp",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "Perps funding, open interest, liquidations, Hyperliquid positions, prop firms and US stock theses",
+      "category_hint": "other",
+      "auth_hint": "none",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-11-14",
+      "failed_attempts": 0
+    },
+    {
+      "name": "Site-Shot",
+      "official_url": "https://github.com/site-shot/site-shot-mcp",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "Website screenshots for AI agents: full-page, country proxies, ad and cookie removal; free plan",
+      "category_hint": "other",
+      "auth_hint": "api-key",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-11-14",
       "failed_attempts": 0
     }
   ]

@@ -580,6 +580,16 @@
       "failed": 0,
       "skipped": 6,
       "duration_seconds": 9
+    },
+    {
+      "date": "2026-11-14",
+      "discovered": 40,
+      "duplicates": 35,
+      "verified": 16,
+      "published": 0,
+      "failed": 0,
+      "skipped": 6,
+      "duration_seconds": 9
     }
   ]
 }
