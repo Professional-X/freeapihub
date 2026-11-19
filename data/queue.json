@@ -47,7 +47,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-18",
+      "verified_date": "2026-11-19",
       "status": "verified",
       "_verify_score": 50
     },
@@ -124,7 +124,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-18",
+      "verified_date": "2026-11-19",
       "status": "verified",
       "_verify_score": 50
     },
@@ -149,7 +149,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-18",
+      "verified_date": "2026-11-19",
       "status": "verified",
       "_verify_score": 65
     },
@@ -174,7 +174,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-18",
+      "verified_date": "2026-11-19",
       "status": "verified",
       "_verify_score": 65
     },
@@ -570,7 +570,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-18",
+      "verified_date": "2026-11-19",
       "status": "verified",
       "_verify_score": 65
     },
@@ -595,7 +595,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-18",
+      "verified_date": "2026-11-19",
       "status": "verified",
       "_verify_score": 50
     },
@@ -827,7 +827,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-18",
+      "verified_date": "2026-11-19",
       "status": "verified",
       "_verify_score": 50
     },
@@ -898,7 +898,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-18",
+      "verified_date": "2026-11-19",
       "status": "verified",
       "_verify_score": 65
     },
@@ -972,7 +972,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-18",
+      "verified_date": "2026-11-19",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1043,7 +1043,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-18",
+      "verified_date": "2026-11-19",
       "status": "verified",
       "_verify_score": 50
     },
@@ -1143,7 +1143,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-18",
+      "verified_date": "2026-11-19",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1194,7 +1194,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-18",
+      "verified_date": "2026-11-19",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1219,7 +1219,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-18",
+      "verified_date": "2026-11-19",
       "status": "verified",
       "_verify_score": 50
     },
@@ -1267,7 +1267,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-18",
+      "verified_date": "2026-11-19",
       "status": "verified",
       "_verify_score": 50
     },
@@ -1292,7 +1292,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-18",
+      "verified_date": "2026-11-19",
       "status": "verified",
       "_verify_score": 50
     },
@@ -1317,7 +1317,7 @@
       "_docs_ok": false,
       "_docs_status": 0,
       "_describes_api": true,
-      "verified_date": "2026-11-18",
+      "verified_date": "2026-11-19",
       "status": "verified",
       "_verify_score": 65
     },
@@ -1753,6 +1753,48 @@
       "cors_hint": "unknown",
       "source": "public-apis",
       "added_date": "2026-11-16",
+      "failed_attempts": 0
+    },
+    {
+      "name": "Inbox eSIM",
+      "official_url": "https://inboxesim.com/llms.txt",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "Find and buy travel data eSIMs for 195 countries, compare eSIM prices across brands, check a phone",
+      "category_hint": "other",
+      "auth_hint": "none",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-11-19",
+      "failed_attempts": 0
+    },
+    {
+      "name": "Ironflow",
+      "official_url": "https://github.com/ironflowsh/mcp",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "Hyperliquid trades, liquidations, funding and wallet data, SQL and liquidation alerts",
+      "category_hint": "other",
+      "auth_hint": "none",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-11-19",
+      "failed_attempts": 0
+    },
+    {
+      "name": "Loupe",
+      "official_url": "https://loupe.legal/support",
+      "documentation_url": "",
+      "repo_url": "",
+      "description": "US legal citations checked: existence, the case named, pin cites; free lookup, filings by sign-in",
+      "category_hint": "other",
+      "auth_hint": "none",
+      "https_hint": false,
+      "cors_hint": "unknown",
+      "source": "public-apis",
+      "added_date": "2026-11-19",
       "failed_attempts": 0
     }
   ]
